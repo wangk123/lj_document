@@ -1,0 +1,9 @@
+BU:
+department: 
+username: test
+password: test
+reporter: 
+project:
+  - projectName: 
+    jiraUrl: https://www.baidu.com
+    assignee: 

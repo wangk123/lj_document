@@ -1,0 +1,72 @@
+{
+    "root": {
+        "data": {
+            "id": "2eo10o8vfl70",
+            "text": "活动相关业务场景",
+            "created": 1567417257696
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "3nk5k7au01md",
+                    "text": "支付方式",
+                    "created": 1567417257696
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "6rga3ekvh8jf",
+                            "text": "花呗",
+                            "created": 1567417257696
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "7h4kslmfq6c2",
+                            "text": "信用卡",
+                            "created": 1567417257696
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "3qns26agifa7",
+                    "text": "活动投放件数-实际中奖人数",
+                    "created": 1567417257696
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "5eji0lq1b0d4",
+                    "text": "剩余商品顺延",
+                    "created": 1567417257696
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "5ncuh8gpoqlf",
+                    "text": "中奖规则",
+                    "created": 1567417257696
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "32nuqncinl14",
+                    "text": "所有个性化增值服务实际表现",
+                    "created": 1567417257696
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43",
+    "id": "2eo10o8vfl70"
+}
