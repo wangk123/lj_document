@@ -1,0 +1,1199 @@
+{
+    "root": {
+        "data": {
+            "id": "07ur1jtfu9ud",
+            "text": "投放计划分配规则",
+            "created": 1567412641632,
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bwpds9d0jhk0",
+                    "created": 1567413700267,
+                    "text": "验证最低投放件数",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwpdgrah54w0",
+                            "created": 1567412798925,
+                            "text": "投放4件",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：4，展示天数：1",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdhbo15gw0",
+                                    "created": 1567412843280,
+                                    "text": "投放件数不能低于5件",
+                                    "usecase": 3,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放5件-1天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：5，展示天数：1",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放5件-2天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：5，展示天数：2 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放5件-3天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：5，展示天数：3 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bwpdt3hpn4w0",
+                    "created": 1567413765854,
+                    "text": "验证投放件数5-10的边界",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放10件-1天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：10，展示天数：1",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放10件-2天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：10，展示天数：2 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放10件-3天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：10，展示天数：3 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放10件-4天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：10，展示天数：4 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bwpdtqv1bk80",
+                    "created": 1567413816726,
+                    "text": "验证投放件数10+的边界",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放11件-1天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：11，展示天数：1",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放11件-2天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：11，展示天数：2 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放11件-3天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：11，展示天数：3 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放11件-4天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：11，展示天数：4 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bwpdv85v3fc0",
+                    "created": 1567413932750,
+                    "text": "验证展示天数5天的边界",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放15件-1天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：15，展示天数：1",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放15件-2天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：15，展示天数：2 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放15件-3天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：15，展示天数：3 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放15件-4天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：15，展示天数：4 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放15件-5天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：15，展示天数：5 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bwpdv85v3fc0",
+                    "created": 1567413932750,
+                    "text": "验证展示天数6天的边界",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放20件-1天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：20，展示天数：1",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放20件-2天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：20，展示天数：2 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放20件-3天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：20，展示天数：3 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放20件-4天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：20，展示天数：4 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放20件-5天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：20，展示天数：5 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放20件-6天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：20，展示天数：6 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bwpdv85v3fc0",
+                    "created": 1567413932750,
+                    "text": "验证展示天数7天的边界",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放25件-1天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：25，展示天数：1",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放25件-2天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：25，展示天数：2 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放25件-3天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：25，展示天数：3 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放25件-4天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：25，展示天数：4 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放25件-5天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：25，展示天数：5 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放25件-6天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：25，展示天数：6 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放25件-7天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：25，展示天数：7 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bwpdv85v3fc0",
+                    "created": 1567413932750,
+                    "text": "验证最大投放件数9999的边界",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放9999件-1天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：9999，展示天数：1",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放9999件-2天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：9999，展示天数：2 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放9999件-3天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：9999，展示天数：3 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放9999件-4天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：9999，展示天数：4 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放9999件-5天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：9999，展示天数：5 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放9999件-6天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：9999，展示天数：6 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放9999件-7天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：9999，展示天数：7 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": " ",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bwpdv85v3fc0",
+                    "created": 1567413932750,
+                    "text": "验证最大投放件数10000的边界",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwpdhhcj9kg0",
+                            "created": 1567412855646,
+                            "text": "投放9999件-7天",
+                            "usecase": 2,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwpdiast7280",
+                                    "created": 1567412919757,
+                                    "text": "投放件数：10000，展示天数：7 ",
+                                    "usecase": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwpdiggs66w0",
+                                    "created": 1567412932090,
+                                    "text": "最大投放件数不得超过9999",
+                                    "usecase": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43",
+    "id": "07ur1jtfu9ud"
+}
