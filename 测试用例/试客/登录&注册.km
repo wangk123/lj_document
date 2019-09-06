@@ -1,0 +1,3188 @@
+{
+    "root": {
+        "data": {
+            "id": "bwrqyjilpwo0",
+            "created": 1567653986899,
+            "text": "登录/注册"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bwrr1a6m80g0",
+                    "created": 1567654201676,
+                    "text": "相关库表",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bwrr1d9uobs0",
+                    "created": 1567654208402,
+                    "text": "功能用例",
+                    "layout": null,
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwrr1mezmo80",
+                            "created": 1567654228304,
+                            "text": "试客登录/注册",
+                            "layout": null,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwrraejp9v40",
+                                    "created": 1567654916452,
+                                    "text": "验证码登录",
+                                    "layout": null,
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bwrrfzlxvyw0",
+                                            "created": 1567655354121,
+                                            "text": "手机号码",
+                                            "layout": null,
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrrg20a5q00",
+                                                    "created": 1567655359341,
+                                                    "text": "默认提示文案：请输入手机号码",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrgbxv9rk0",
+                                                    "created": 1567655380963,
+                                                    "text": "手机号码格式，长度11位，只允许数字",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrgn0snwg0",
+                                                    "created": 1567655405085,
+                                                    "text": "手机号自动分隔，示例：134 5678 9123",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwryfnxbp8g0",
+                                                    "created": 1567675076457,
+                                                    "text": "手机号格式错误",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrrhs5esjk0",
+                                            "created": 1567655494612,
+                                            "text": "图形验证码",
+                                            "layout": null,
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrri0x66vc0",
+                                                    "created": 1567655513705,
+                                                    "text": "默认提示文案：请输入图形验证码",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrulm6cp340",
+                                                    "created": 1567664258396,
+                                                    "text": "验证码忽略大小写",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrumj0kdq00",
+                                                    "created": 1567664329878,
+                                                    "text": "点击图片获取新的图形验证码",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwy9vh73c0",
+                                                    "created": 1567670892569,
+                                                    "text": "重复获取图形验证",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrrhw8lut40",
+                                            "created": 1567655503512,
+                                            "text": "手机验证码",
+                                            "layout": null,
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrri0x66vc0",
+                                                    "created": 1567655513705,
+                                                    "text": "默认提示文案：请输入六位验证码",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwm9cjeyw0",
+                                                    "created": 1567669951054,
+                                                    "text": "未获取验证码按钮状态：获取验证码，可点击",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwn7760ww0",
+                                                    "created": 1567670024740,
+                                                    "text": "已获取验证码按钮状态：60秒倒计时，不可点击",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwnku6hqw0",
+                                                    "created": 1567670054430,
+                                                    "text": "倒计时结束后验证码状态：重新获取，可点击",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwyn8z3ug0",
+                                                    "created": 1567670921684,
+                                                    "text": "退出当前页面后重新进入再次获取验证码",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwyu3w86g0",
+                                                    "created": 1567670936614,
+                                                    "text": "手机号为空时查看验证码状态：不可点击",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwz1t4e6o0",
+                                                    "created": 1567670953377,
+                                                    "text": "手机号格式错误时查看验证码状态：不可点击",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz0kqgbjc0",
+                                                    "created": 1567676715158,
+                                                    "text": "图形验证码为空时获取验证码",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz0odsaao0",
+                                                    "created": 1567676723100,
+                                                    "text": "图形验证码错误时获取验证码",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrx93nx8gw0",
+                                            "created": 1567671741058,
+                                            "text": "登录",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrraznsm000",
+                                                    "created": 1567654962412,
+                                                    "text": "账号未注册时登录",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrbkja49k0",
+                                                    "created": 1567655007851,
+                                                    "text": "账号已注册时登录",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrboug3qg0",
+                                                    "created": 1567655017234,
+                                                    "text": "账号已注册商家账户",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrc1z89gw0",
+                                                    "created": 1567655045821,
+                                                    "text": "验证码错误时登录",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrc6wwfio0",
+                                                    "created": 1567655056564,
+                                                    "text": "图形验证码错误时登录",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrih64o8w0",
+                                                    "created": 1567655549075,
+                                                    "text": "虚拟运营商手机号注册",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwwmsg3jc0",
+                                                    "created": 1567670763956,
+                                                    "text": "重新获取短信验证码后用新验证码登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwww4v5co0",
+                                                    "created": 1567670784298,
+                                                    "text": "重新获取短信验证码后用旧验证码登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrc6wwfio0",
+                                                    "created": 1567655056564,
+                                                    "text": "重新获取图形验证码后用新图形验证码登录",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwxluawyg0",
+                                                    "created": 1567670840256,
+                                                    "text": "重新获取图形验证码后用旧图形验证码登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwryoceivvk0",
+                                                    "created": 1567675756653,
+                                                    "text": "手机验证码为空时登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwryohclcl40",
+                                                    "created": 1567675767420,
+                                                    "text": "图形验证码为空时登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrzan9u2s00",
+                                                    "created": 1567677504326,
+                                                    "text": "账户被冻结后登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrx94zq1n40",
+                                            "created": 1567671743948,
+                                            "text": "密码登录",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwryrgd4kz40",
+                                                    "created": 1567676000368,
+                                                    "text": "点击密码登录跳转到密码登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrys2s1k0o0",
+                                                    "created": 1567676049159,
+                                                    "text": "跳转到密码登录页面后点击返回，可以返回到验证码登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrx97qqa600",
+                                            "created": 1567671749935,
+                                            "text": "切换至商家",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwryrq54ia80",
+                                                    "created": 1567676021652,
+                                                    "text": "点击切换至商家跳转到商家登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrysi51puo0",
+                                                    "created": 1567676082597,
+                                                    "text": "跳转到商家登录页面后点击返回，可以返回到试客验证码登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwryx9l3kig0",
+                                            "created": 1567676455798,
+                                            "text": "微信",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwryxfl38wo0",
+                                                    "created": 1567676468858,
+                                                    "text": "点击跳转到微信授权页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrzghgssfs0",
+                                                    "created": 1567677961871,
+                                                    "text": "微信未登录时点击微信登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrzgli4fa80",
+                                                    "created": 1567677970658,
+                                                    "text": "设备未安装微信时点击微信登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz43n6p3c0",
+                                                    "created": 1567676991412,
+                                                    "text": "跳转到微信授权页面后点击返回，可以返回到试客验证码登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwryxbhxyds0",
+                                            "created": 1567676459960,
+                                            "text": "QQ",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwryxkq23ew0",
+                                                    "created": 1567676480042,
+                                                    "text": "点击跳转到QQ授权页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrzg447rns0",
+                                                    "created": 1567677932812,
+                                                    "text": "QQ未登录时点击QQ登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrzg981rts0",
+                                                    "created": 1567677943928,
+                                                    "text": "设备未安装QQ时点击QQ登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz44zobz40",
+                                                    "created": 1567676994344,
+                                                    "text": "跳转到QQ授权页面后点击返回，可以返回到试客验证码登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwryxcpnqjk0",
+                                            "created": 1567676462604,
+                                            "text": "用户服务协议",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwryxpq59js0",
+                                                    "created": 1567676490931,
+                                                    "text": "点击跳转到用户服务协议详情页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz468p6e80",
+                                                    "created": 1567676997067,
+                                                    "text": "跳转到用户服务协议页面后点击返回，可以返回到试客验证码登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bwrrah98jxk0",
+                                    "created": 1567654922350,
+                                    "text": "密码登录",
+                                    "layout": null,
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bwryzqkmn6w0",
+                                            "created": 1567676649503,
+                                            "text": "手机号",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrrg20a5q00",
+                                                    "created": 1567655359341,
+                                                    "text": "默认提示文案：请输入手机号码",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrgbxv9rk0",
+                                                    "created": 1567655380963,
+                                                    "text": "手机号码格式，长度11位，只允许数字",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrgn0snwg0",
+                                                    "created": 1567655405085,
+                                                    "text": "手机号自动分隔，示例：134 5678 9123",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwryfnxbp8g0",
+                                                    "created": 1567675076457,
+                                                    "text": "手机号格式错误",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwryzsiy2lk0",
+                                            "created": 1567676653755,
+                                            "text": "密码",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrz53vkhe80",
+                                                    "created": 1567677070283,
+                                                    "text": "默认提示文案：请输入密码",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz69ifebc0",
+                                                    "created": 1567677160914,
+                                                    "text": "密码***展示",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsjoc04wwg0",
+                                                    "created": 1567734999091,
+                                                    "text": "点击右侧眼睛按钮",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsjomg5l5c0",
+                                                            "created": 1567735021827,
+                                                            "text": "密码明文显示",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsjounmihk0",
+                                                    "created": 1567735039693,
+                                                    "text": "密码明文显示后再次点击右侧眼睛按钮",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsjp0okfwg0",
+                                                            "created": 1567735052811,
+                                                            "text": "密码*****显示",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwryzttv0vc0",
+                                            "created": 1567676656591,
+                                            "text": "登录",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrraznsm000",
+                                                    "created": 1567654962412,
+                                                    "text": "账号未注册时登录",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrbkja49k0",
+                                                    "created": 1567655007851,
+                                                    "text": "账号已注册时登录",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrboug3qg0",
+                                                    "created": 1567655017234,
+                                                    "text": "账号已注册商家账户",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrih64o8w0",
+                                                    "created": 1567655549075,
+                                                    "text": "虚拟运营商手机号注册",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz1kt5l740",
+                                                    "created": 1567676793686,
+                                                    "text": "账号已注册未设置密码时登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz6ssewfk0",
+                                                    "created": 1567677202876,
+                                                    "text": "输入错误的密码登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwrz7h8g9740",
+                                                            "created": 1567677256089,
+                                                            "text": "提示：密码输入错误，是否找回密码？",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz744mvkw0",
+                                                    "created": 1567677227560,
+                                                    "text": "密码连续错误5次",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwrz8cbfibk0",
+                                                            "created": 1567677323749,
+                                                            "text": "账号冻结，冻结期间不能登录",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz92m42s80",
+                                                    "created": 1567677380991,
+                                                    "text": "密码连续错误4次，第5次正确，第6次错误",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwrz9ggq1bs0",
+                                                            "created": 1567677411140,
+                                                            "text": "账号不会被冻结，重新计算密码错误次数",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz8o4ygfk0",
+                                                    "created": 1567677349479,
+                                                    "text": "账户被冻结后输入正确的密码登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwrz9rwudnc0",
+                                                            "created": 1567677436060,
+                                                            "text": "冻结期间不能登录",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz9vk050g0",
+                                                    "created": 1567677443991,
+                                                    "text": "账户解冻后输入正确的密码登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwrzb5pi66w0",
+                                                            "created": 1567677544455,
+                                                            "text": "登录成功",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrz2amhjvc0",
+                                            "created": 1567676849879,
+                                            "text": "忘记密码",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrzblt3gs00",
+                                                    "created": 1567677579501,
+                                                    "text": "点击忘记密码",
+                                                    "usecase": 2,
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwrzbqor6zk0",
+                                                            "created": 1567677590122,
+                                                            "text": "跳转到忘记密码页面",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrz2d400dc0",
+                                            "created": 1567676855292,
+                                            "text": "切换至商家",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwryrq54ia80",
+                                                    "created": 1567676021652,
+                                                    "text": "点击切换至商家跳转到商家登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrysi51puo0",
+                                                    "created": 1567676082597,
+                                                    "text": "跳转到商家登录页面后点击返回，可以返回到试客验证码登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrz2fxefgo0",
+                                            "created": 1567676861423,
+                                            "text": "用户服务协议",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwryxpq59js0",
+                                                    "created": 1567676490931,
+                                                    "text": "点击跳转到用户服务协议详情页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz3q2i2ns0",
+                                                    "created": 1567676961864,
+                                                    "text": "跳转到用户服务协议详情页面后点击返回，可以返回到试客验证码登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bwrrak7nav40",
+                                    "created": 1567654928784,
+                                    "text": "微信登录",
+                                    "layout": null,
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bwrzcf715rk0",
+                                            "created": 1567677643470,
+                                            "text": "微信头像"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrzd9wcmi80",
+                                                    "created": 1567677710306,
+                                                    "text": "与当前登录微信头像一致",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrzcum0geo0",
+                                            "created": 1567677677028,
+                                            "text": "微信名称"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrzd3vfs540",
+                                                    "created": 1567677697189,
+                                                    "text": "与当前登录微信昵称一致",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrzcl5cqds0",
+                                            "created": 1567677656429,
+                                            "text": "确认授权信息"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrzd12m2c00",
+                                                    "created": 1567677691092,
+                                                    "text": "请确认授权以下信息：\n获取你的公开信息（昵称、头像等）",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrzcnoiyvs0",
+                                            "created": 1567677661942,
+                                            "text": "确认授权"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrzht41ugo0",
+                                                    "created": 1567678065586,
+                                                    "text": "首次使用微信确认授权",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwrzjzvkgyo0",
+                                                            "created": 1567678237039,
+                                                            "text": "跳转到手机号绑定页面",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrzi2zzw5c0",
+                                                    "created": 1567678087108,
+                                                    "text": "已经绑定过微信的试客账户确认授权",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrzi7we2zk0",
+                                                    "created": 1567678097774,
+                                                    "text": "已经绑定过微信的商家用户确认授权",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwskqwdgk6g0",
+                                                            "created": 1567738021270,
+                                                            "text": "无法登录，商家账号无法登录试客",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bwrram5lekw0",
+                                    "created": 1567654933013,
+                                    "text": "QQ登录",
+                                    "layout": null,
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bwrzcf715rk0",
+                                            "created": 1567677643470,
+                                            "text": "QQ头像"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrzd9wcmi80",
+                                                    "created": 1567677710306,
+                                                    "text": "与当前登录QQ头像一致",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrzcum0geo0",
+                                            "created": 1567677677028,
+                                            "text": "QQ名称"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrzd3vfs540",
+                                                    "created": 1567677697189,
+                                                    "text": "与当前登录QQ昵称一致",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrzcl5cqds0",
+                                            "created": 1567677656429,
+                                            "text": "确认授权信息"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrzd12m2c00",
+                                                    "created": 1567677691092,
+                                                    "text": "请确认授权以下信息：\n获取你的公开信息（昵称、头像等）",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrzcnoiyvs0",
+                                            "created": 1567677661942,
+                                            "text": "确认授权"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrzht41ugo0",
+                                                    "created": 1567678065586,
+                                                    "text": "首次使用QQ确认授权",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwrzjzvkgyo0",
+                                                            "created": 1567678237039,
+                                                            "text": "跳转到手机号绑定页面",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrzi2zzw5c0",
+                                                    "created": 1567678087108,
+                                                    "text": "已经绑定过QQ的试客账户确认授权",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrzi7we2zk0",
+                                                    "created": 1567678097774,
+                                                    "text": "已经绑定过QQ的商家用户确认授权",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bwrzmsqoma00",
+                                    "created": 1567678456598,
+                                    "text": "绑定手机号",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bwrzmwgfp1s0",
+                                            "created": 1567678464686,
+                                            "text": "手机号",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrrg20a5q00",
+                                                    "created": 1567655359341,
+                                                    "text": "默认提示文案：请输入手机号码",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrgbxv9rk0",
+                                                    "created": 1567655380963,
+                                                    "text": "手机号码格式，长度11位，只允许数字",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrgn0snwg0",
+                                                    "created": 1567655405085,
+                                                    "text": "手机号自动分隔，示例：134 5678 9123",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwryfnxbp8g0",
+                                                    "created": 1567675076457,
+                                                    "text": "手机号格式错误",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrzmzfzx1k0",
+                                            "created": 1567678471190,
+                                            "text": "图形验证码",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrri0x66vc0",
+                                                    "created": 1567655513705,
+                                                    "text": "默认提示文案：请输入图形验证码",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrulm6cp340",
+                                                    "created": 1567664258396,
+                                                    "text": "验证码忽略大小写",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrumj0kdq00",
+                                                    "created": 1567664329878,
+                                                    "text": "点击图片获取新的图形验证码",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwy9vh73c0",
+                                                    "created": 1567670892569,
+                                                    "text": "重复获取图形验证",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrzn2bzqw00",
+                                            "created": 1567678477478,
+                                            "text": "手机验证码",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrri0x66vc0",
+                                                    "created": 1567655513705,
+                                                    "text": "默认提示文案：请输入六位验证码",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwm9cjeyw0",
+                                                    "created": 1567669951054,
+                                                    "text": "未获取验证码按钮状态：获取验证码，可点击",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwn7760ww0",
+                                                    "created": 1567670024740,
+                                                    "text": "已获取验证码按钮状态：60秒倒计时，不可点击",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwnku6hqw0",
+                                                    "created": 1567670054430,
+                                                    "text": "倒计时结束后验证码状态：重新获取，可点击",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwyn8z3ug0",
+                                                    "created": 1567670921684,
+                                                    "text": "退出当前页面后重新进入再次获取验证码",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwyu3w86g0",
+                                                    "created": 1567670936614,
+                                                    "text": "手机号为空时查看验证码状态：不可点击",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwz1t4e6o0",
+                                                    "created": 1567670953377,
+                                                    "text": "手机号格式错误时查看验证码状态：不可点击",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz0kqgbjc0",
+                                                    "created": 1567676715158,
+                                                    "text": "图形验证码为空时获取验证码",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz0odsaao0",
+                                                    "created": 1567676723100,
+                                                    "text": "图形验证码错误时获取验证码",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrzn432yhc0",
+                                            "created": 1567678481293,
+                                            "text": "确定",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrraznsm000",
+                                                    "created": 1567654962412,
+                                                    "text": "手机号未注册时点击确定",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwrzq5hcxy80",
+                                                            "created": 1567678719425,
+                                                            "text": "点击确定后自动登录，并跳转至首页",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrbkja49k0",
+                                                    "created": 1567655007851,
+                                                    "text": "手机号已注册试客账户时点击确定",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrboug3qg0",
+                                                    "created": 1567655017234,
+                                                    "text": "手机号已注册商家账户时点击确定",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrc1z89gw0",
+                                                    "created": 1567655045821,
+                                                    "text": "验证码错误时点击确定",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrc6wwfio0",
+                                                    "created": 1567655056564,
+                                                    "text": "图形验证码错误时点击确定",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrih64o8w0",
+                                                    "created": 1567655549075,
+                                                    "text": "虚拟运营商手机号",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwryoceivvk0",
+                                                    "created": 1567675756653,
+                                                    "text": "手机验证码为空时点击确定",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwryohclcl40",
+                                                    "created": 1567675767420,
+                                                    "text": "图形验证码为空时登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwww4v5co0",
+                                                    "created": 1567670784298,
+                                                    "text": "重新获取短信验证码后用旧验证码点击确定",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwwmsg3jc0",
+                                                    "created": 1567670763956,
+                                                    "text": "重新获取短信验证码后用新验证码登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrc6wwfio0",
+                                                    "created": 1567655056564,
+                                                    "text": "重新获取图形验证码后用新图形验证码点击确定",
+                                                    "usecase": 2,
+                                                    "layout": null,
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwxluawyg0",
+                                                    "created": 1567670840256,
+                                                    "text": "重新获取图形验证码后用旧图形验证码点击确定",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwrrd9cm2mw0",
+                            "created": 1567655140232,
+                            "text": "商家登录/注册",
+                            "layout": null,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwsltk2nhpc0",
+                                    "created": 1567741050698,
+                                    "text": "注册",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bwslu1inaww0",
+                                            "created": 1567741088670,
+                                            "text": "商家登录",
+                                            "layout": null,
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwsluaq6ry00",
+                                                    "created": 1567741108717,
+                                                    "text": "点击切换到商家登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrrfzlxvyw0",
+                                            "created": 1567655354121,
+                                            "text": "手机号码",
+                                            "layout": null,
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrrg20a5q00",
+                                                    "created": 1567655359341,
+                                                    "text": "默认提示文案：请输入手机号码",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrgbxv9rk0",
+                                                    "created": 1567655380963,
+                                                    "text": "手机号码格式，长度11位，只允许数字",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrgn0snwg0",
+                                                    "created": 1567655405085,
+                                                    "text": "手机号自动分隔，示例：134 5678 9123",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwryfnxbp8g0",
+                                                    "created": 1567675076457,
+                                                    "text": "手机号格式错误",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrrhs5esjk0",
+                                            "created": 1567655494612,
+                                            "text": "图形验证码",
+                                            "layout": null,
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrri0x66vc0",
+                                                    "created": 1567655513705,
+                                                    "text": "默认提示文案：请输入图形验证码",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrulm6cp340",
+                                                    "created": 1567664258396,
+                                                    "text": "验证码忽略大小写",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrumj0kdq00",
+                                                    "created": 1567664329878,
+                                                    "text": "点击图片获取新的图形验证码",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwy9vh73c0",
+                                                    "created": 1567670892569,
+                                                    "text": "重复获取图形验证",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrrhw8lut40",
+                                            "created": 1567655503512,
+                                            "text": "手机验证码",
+                                            "layout": null,
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrri0x66vc0",
+                                                    "created": 1567655513705,
+                                                    "text": "默认提示文案：请输入六位验证码",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwm9cjeyw0",
+                                                    "created": 1567669951054,
+                                                    "text": "未获取验证码按钮状态：获取验证码，可点击",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwn7760ww0",
+                                                    "created": 1567670024740,
+                                                    "text": "已获取验证码按钮状态：60秒倒计时，不可点击",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwnku6hqw0",
+                                                    "created": 1567670054430,
+                                                    "text": "倒计时结束后验证码状态：重新获取，可点击",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwyn8z3ug0",
+                                                    "created": 1567670921684,
+                                                    "text": "退出当前页面后重新进入再次获取验证码",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwyu3w86g0",
+                                                    "created": 1567670936614,
+                                                    "text": "手机号为空时查看验证码状态：不可点击",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwz1t4e6o0",
+                                                    "created": 1567670953377,
+                                                    "text": "手机号格式错误时查看验证码状态：不可点击",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz0kqgbjc0",
+                                                    "created": 1567676715158,
+                                                    "text": "图形验证码为空时获取验证码",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz0odsaao0",
+                                                    "created": 1567676723100,
+                                                    "text": "图形验证码错误时获取验证码",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsl0fqpodc0",
+                                            "created": 1567738768708,
+                                            "text": "密码",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwsjidak3f40",
+                                                    "created": 1567734531713,
+                                                    "text": "默认提示文案：请输入新密码",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsjmy3jtug0",
+                                                    "created": 1567734890458,
+                                                    "text": "密码长度校验6-18位",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsjn6cvnig0",
+                                                    "created": 1567734908437,
+                                                    "text": "密码为18位全角字符",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsjo8775wg0",
+                                                    "created": 1567734990811,
+                                                    "text": "密码****显示",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsjoc04wwg0",
+                                                    "created": 1567734999091,
+                                                    "text": "点击右侧眼睛按钮",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsjomg5l5c0",
+                                                            "created": 1567735021827,
+                                                            "text": "密码明文显示",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsjounmihk0",
+                                                    "created": 1567735039693,
+                                                    "text": "密码明文显示后再次点击右侧眼睛按钮",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsjp0okfwg0",
+                                                            "created": 1567735052811,
+                                                            "text": "密码*****显示",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsl0j6hp1c0",
+                                            "created": 1567738776193,
+                                            "text": "QQ号",
+                                            "usecase": null,
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwsloed96w80",
+                                                    "created": 1567740646458,
+                                                    "text": "默认提示：请输入QQ号码（选填）",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwslddb6d880",
+                                                    "created": 1567739782149,
+                                                    "text": "QQ号为空",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsldhjl6zk0",
+                                                    "created": 1567739791365,
+                                                    "text": "QQ号长度限制5-11位",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsl0kwdvkw0",
+                                            "created": 1567738779936,
+                                            "text": "邀请码",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwsloed96w80",
+                                                    "created": 1567740646458,
+                                                    "text": "默认提示：请输入邀请码（选填）",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwslovmbb6g0",
+                                                    "created": 1567740684011,
+                                                    "text": "邀请码为空",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsloxgdel40",
+                                                    "created": 1567740688005,
+                                                    "text": "邀请码长度限制？？",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsl0qonlo00",
+                                            "created": 1567738792528,
+                                            "text": "注册",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrraznsm000",
+                                                    "created": 1567654962412,
+                                                    "text": "账号未注册",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrbkja49k0",
+                                                    "created": 1567655007851,
+                                                    "text": "账号已注册试客",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwslpsc9a5c0",
+                                                            "created": 1567740755236,
+                                                            "text": "弹窗提示：该账号为试客账号请切换至试客端登录",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsm1ndfkm00",
+                                                    "created": 1567741684794,
+                                                    "text": "试客账号弹窗-跳转试客登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsm2hwne080",
+                                                            "created": 1567741751259,
+                                                            "text": "账号已注册试客",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsm1ygpohk0",
+                                                            "created": 1567741708936,
+                                                            "text": "点击切换按钮，跳转到试客登录页面",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsm25cjk4w0",
+                                                    "created": 1567741723922,
+                                                    "text": "试客账号弹窗-关闭弹窗",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsm2ujtlgg0",
+                                                            "created": 1567741778781,
+                                                            "text": "账号已注册试客",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsm29tmmxs0",
+                                                            "created": 1567741733662,
+                                                            "text": "点击取消按钮，关闭弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrboug3qg0",
+                                                    "created": 1567655017234,
+                                                    "text": "账号已注册商家账户",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwslq1np34w0",
+                                                            "created": 1567740775519,
+                                                            "text": "弹窗提示：您输入的手机号已被注册请直接登录",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsm4juyng00",
+                                                    "created": 1567741912239,
+                                                    "text": "已注册弹窗-跳转登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsm55hz4a00",
+                                                            "created": 1567741959343,
+                                                            "text": "账号已注册商家账户",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsm4pu0wog0",
+                                                            "created": 1567741925243,
+                                                            "text": "点击登录，跳转到商家登录页面",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsm4v2ap0o0",
+                                                    "created": 1567741936627,
+                                                    "text": "已注册弹窗-关闭弹窗",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsm56h4xlk0",
+                                                            "created": 1567741961469,
+                                                            "text": "账号已注册商家账户",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsm4yy8w340",
+                                                            "created": 1567741945089,
+                                                            "text": "点击取消，关闭弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrc1z89gw0",
+                                                    "created": 1567655045821,
+                                                    "text": "验证码错误",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrc6wwfio0",
+                                                    "created": 1567655056564,
+                                                    "text": "图形验证码错误",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrih64o8w0",
+                                                    "created": 1567655549075,
+                                                    "text": "虚拟运营商手机号注册",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwryohclcl40",
+                                                    "created": 1567675767420,
+                                                    "text": "图形验证码为空",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwww4v5co0",
+                                                    "created": 1567670784298,
+                                                    "text": "重新获取短信验证码后用旧验证码注册",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrc6wwfio0",
+                                                    "created": 1567655056564,
+                                                    "text": "重新获取图形验证码后用新图形验证码注册",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwxluawyg0",
+                                                    "created": 1567670840256,
+                                                    "text": "重新获取图形验证码后用旧图形验证码注册",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrwwmsg3jc0",
+                                                    "created": 1567670763956,
+                                                    "text": "重新获取短信验证码后用新验证码注册",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwryoceivvk0",
+                                                    "created": 1567675756653,
+                                                    "text": "手机验证码为空时注册",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwslqwzea2g0",
+                                                    "created": 1567740843707,
+                                                    "text": "QQ号为空时注册",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwslr0xwqo80",
+                                                    "created": 1567740852324,
+                                                    "text": "QQ号格式错误时注册",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwslr6vudg00",
+                                                            "created": 1567740865260,
+                                                            "text": "例如：000123",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwslrg8ukao0",
+                                                    "created": 1567740885637,
+                                                    "text": "QQ号正确时注册",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwslrjgkmds0",
+                                                    "created": 1567740892635,
+                                                    "text": "填写不存在的邀请码注册",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwslrqkirg00",
+                                                    "created": 1567740908111,
+                                                    "text": "邀请码为空时注册",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsls3edhag0",
+                                                    "created": 1567740936037,
+                                                    "text": "填写正确的邀请码注册",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsl0rgdmag0",
+                                            "created": 1567738794205,
+                                            "text": "切换至试客",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwryrq54ia80",
+                                                    "created": 1567676021652,
+                                                    "text": "点击切换至试客跳转到试客登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrysi51puo0",
+                                                    "created": 1567676082597,
+                                                    "text": "跳转到试客登录页面后点击返回，可以返回到商家注册页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsl0uajnds0",
+                                            "created": 1567738800382,
+                                            "text": "用户服务协议",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwryxpq59js0",
+                                                    "created": 1567676490931,
+                                                    "text": "点击跳转到用户服务协议详情页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz468p6e80",
+                                                    "created": 1567676997067,
+                                                    "text": "跳转到用户服务协议页面后点击返回，可以返回到商家注册页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bwsltl9o3e00",
+                                    "created": 1567741053299,
+                                    "text": "登录",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bwslyr86obs0",
+                                            "created": 1567741458091,
+                                            "text": "商家注册",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwsluaq6ry00",
+                                                    "created": 1567741108717,
+                                                    "text": "点击切换到商家注册页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwryzqkmn6w0",
+                                            "created": 1567676649503,
+                                            "text": "手机号",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrrg20a5q00",
+                                                    "created": 1567655359341,
+                                                    "text": "默认提示文案：请输入手机号码",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrgbxv9rk0",
+                                                    "created": 1567655380963,
+                                                    "text": "手机号码格式，长度11位，只允许数字",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrgn0snwg0",
+                                                    "created": 1567655405085,
+                                                    "text": "手机号自动分隔，示例：134 5678 9123",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwryfnxbp8g0",
+                                                    "created": 1567675076457,
+                                                    "text": "手机号格式错误",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwryzsiy2lk0",
+                                            "created": 1567676653755,
+                                            "text": "密码",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrz53vkhe80",
+                                                    "created": 1567677070283,
+                                                    "text": "默认提示文案：请输入密码",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz69ifebc0",
+                                                    "created": 1567677160914,
+                                                    "text": "密码***展示",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsjoc04wwg0",
+                                                    "created": 1567734999091,
+                                                    "text": "点击右侧眼睛按钮",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsjomg5l5c0",
+                                                            "created": 1567735021827,
+                                                            "text": "密码明文显示",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsjounmihk0",
+                                                    "created": 1567735039693,
+                                                    "text": "密码明文显示后再次点击右侧眼睛按钮",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsjp0okfwg0",
+                                                            "created": 1567735052811,
+                                                            "text": "密码*****显示",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwryzttv0vc0",
+                                            "created": 1567676656591,
+                                            "text": "登录",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrraznsm000",
+                                                    "created": 1567654962412,
+                                                    "text": "账号未注册时登录",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsly3p469c0",
+                                                            "created": 1567741406872,
+                                                            "text": "弹窗提示：您输入的手机号未注册请先注册",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwslz9nhpsw0",
+                                                    "created": 1567741498198,
+                                                    "text": "未注册弹窗-跳转注册页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsm08eckpc0",
+                                                            "created": 1567741573833,
+                                                            "text": "账号未注册",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwslzfanwv40",
+                                                            "created": 1567741510484,
+                                                            "text": "点击注册按钮，跳转到注册页面",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwslznx6jps0",
+                                                    "created": 1567741529260,
+                                                    "text": "未注册弹窗-关闭弹窗",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsm0c95fds0",
+                                                            "created": 1567741582226,
+                                                            "text": "账号未注册",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwslzym6krs0",
+                                                            "created": 1567741552539,
+                                                            "text": "点击取消按钮，关闭弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrboug3qg0",
+                                                    "created": 1567655017234,
+                                                    "text": "账号已注册商家账户",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrbkja49k0",
+                                                    "created": 1567655007851,
+                                                    "text": "账号已注册试客账户",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsm1bch0og0",
+                                                            "created": 1567741658614,
+                                                            "text": "弹窗提示：该账号为试客账号请切换至试客端登录",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsm1ndfkm00",
+                                                    "created": 1567741684794,
+                                                    "text": "试客账号弹窗-跳转试客登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsm2hwne080",
+                                                            "created": 1567741751259,
+                                                            "text": "登录账号为试客账号",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsm1ygpohk0",
+                                                            "created": 1567741708936,
+                                                            "text": "点击切换按钮，跳转到试客登录页面",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwsm25cjk4w0",
+                                                    "created": 1567741723922,
+                                                    "text": "试客账号弹窗-关闭弹窗",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsm2ujtlgg0",
+                                                            "created": 1567741778781,
+                                                            "text": "登录账号为试客账号",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwsm29tmmxs0",
+                                                            "created": 1567741733662,
+                                                            "text": "点击取消按钮，关闭弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrrih64o8w0",
+                                                    "created": 1567655549075,
+                                                    "text": "虚拟运营商手机号注册",
+                                                    "usecase": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz6ssewfk0",
+                                                    "created": 1567677202876,
+                                                    "text": "输入错误的密码登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwrz7h8g9740",
+                                                            "created": 1567677256089,
+                                                            "text": "提示：密码输入错误，是否找回密码？",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz744mvkw0",
+                                                    "created": 1567677227560,
+                                                    "text": "密码连续错误5次",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwrz8cbfibk0",
+                                                            "created": 1567677323749,
+                                                            "text": "账号冻结，冻结期间不能登录",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz92m42s80",
+                                                    "created": 1567677380991,
+                                                    "text": "密码连续错误4次，第5次正确，第6次错误",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwrz9ggq1bs0",
+                                                            "created": 1567677411140,
+                                                            "text": "账号不会被冻结，重新计算密码错误次数",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz8o4ygfk0",
+                                                    "created": 1567677349479,
+                                                    "text": "账户被冻结后输入正确的密码登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwrz9rwudnc0",
+                                                            "created": 1567677436060,
+                                                            "text": "冻结期间不能登录",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrz9vk050g0",
+                                                    "created": 1567677443991,
+                                                    "text": "账户解冻后输入正确的密码登录",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwrzb5pi66w0",
+                                                            "created": 1567677544455,
+                                                            "text": "登录成功",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrz2amhjvc0",
+                                            "created": 1567676849879,
+                                            "text": "忘记密码",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwrzblt3gs00",
+                                                    "created": 1567677579501,
+                                                    "text": "点击忘记密码",
+                                                    "usecase": 2,
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwrzbqor6zk0",
+                                                            "created": 1567677590122,
+                                                            "text": "跳转到忘记密码页面",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrz2d400dc0",
+                                            "created": 1567676855292,
+                                            "text": "切换至试客",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwryrq54ia80",
+                                                    "created": 1567676021652,
+                                                    "text": "点击切换至试客跳转到试客登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwrysi51puo0",
+                                                    "created": 1567676082597,
+                                                    "text": "跳转到试客登录页面后点击返回，可以返回到商家登录页面",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwrzr47hvn40",
+                            "created": 1567678795016,
+                            "text": "忘记密码",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwrrfzlxvyw0",
+                                    "created": 1567655354121,
+                                    "text": "手机号码",
+                                    "layout": null,
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bwrrg20a5q00",
+                                            "created": 1567655359341,
+                                            "text": "默认提示文案：请输入手机号码",
+                                            "usecase": 2,
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrrgbxv9rk0",
+                                            "created": 1567655380963,
+                                            "text": "手机号码格式，长度11位，只允许数字",
+                                            "usecase": 2,
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrrgn0snwg0",
+                                            "created": 1567655405085,
+                                            "text": "手机号自动分隔，示例：134 5678 9123",
+                                            "usecase": 2,
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwryfnxbp8g0",
+                                            "created": 1567675076457,
+                                            "text": "手机号格式错误",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bwrrhs5esjk0",
+                                    "created": 1567655494612,
+                                    "text": "图形验证码",
+                                    "layout": null,
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bwrri0x66vc0",
+                                            "created": 1567655513705,
+                                            "text": "默认提示文案：请输入图形验证码",
+                                            "usecase": 2,
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrulm6cp340",
+                                            "created": 1567664258396,
+                                            "text": "验证码忽略大小写",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrumj0kdq00",
+                                            "created": 1567664329878,
+                                            "text": "点击图片获取新的图形验证码",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrwy9vh73c0",
+                                            "created": 1567670892569,
+                                            "text": "重复获取图形验证",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bwrrhw8lut40",
+                                    "created": 1567655503512,
+                                    "text": "手机验证码",
+                                    "layout": null,
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bwrri0x66vc0",
+                                            "created": 1567655513705,
+                                            "text": "默认提示文案：请输入六位验证码",
+                                            "usecase": 2,
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrwm9cjeyw0",
+                                            "created": 1567669951054,
+                                            "text": "未获取验证码按钮状态：获取验证码，可点击",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrwn7760ww0",
+                                            "created": 1567670024740,
+                                            "text": "已获取验证码按钮状态：60秒倒计时，不可点击",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrwnku6hqw0",
+                                            "created": 1567670054430,
+                                            "text": "倒计时结束后验证码状态：重新获取，可点击",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrwyn8z3ug0",
+                                            "created": 1567670921684,
+                                            "text": "退出当前页面后重新进入再次获取验证码",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrwyu3w86g0",
+                                            "created": 1567670936614,
+                                            "text": "手机号为空时查看验证码状态：不可点击",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrwz1t4e6o0",
+                                            "created": 1567670953377,
+                                            "text": "手机号格式错误时查看验证码状态：不可点击",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrz0kqgbjc0",
+                                            "created": 1567676715158,
+                                            "text": "图形验证码为空时获取验证码",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrz0odsaao0",
+                                            "created": 1567676723100,
+                                            "text": "图形验证码错误时获取验证码",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bwsjia22yco0",
+                                    "created": 1567734524670,
+                                    "text": "新密码",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bwsjidak3f40",
+                                            "created": 1567734531713,
+                                            "text": "默认提示文案：请输入新密码",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsjmy3jtug0",
+                                            "created": 1567734890458,
+                                            "text": "密码长度校验6-18位",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsjn6cvnig0",
+                                            "created": 1567734908437,
+                                            "text": "密码为18位全角字符",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsjo8775wg0",
+                                            "created": 1567734990811,
+                                            "text": "密码****显示",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsjoc04wwg0",
+                                            "created": 1567734999091,
+                                            "text": "点击右侧眼睛按钮",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwsjomg5l5c0",
+                                                    "created": 1567735021827,
+                                                    "text": "密码明文显示",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsjounmihk0",
+                                            "created": 1567735039693,
+                                            "text": "密码明文显示后再次点击右侧眼睛按钮",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwsjp0okfwg0",
+                                                    "created": 1567735052811,
+                                                    "text": "密码*****显示",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bwsjo5wzazk0",
+                                    "created": 1567734985839,
+                                    "text": "完成",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bwsjpnndvh40",
+                                            "created": 1567735102806,
+                                            "text": "未注册的手机号修改密码",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsjpxenmbs0",
+                                            "created": 1567735124046,
+                                            "text": "已注册试客账户的手机号修改密码",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsjq4j8dvs0",
+                                            "created": 1567735139560,
+                                            "text": "已注册商家账户的手机号修改密码",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsjq8vig8w0",
+                                            "created": 1567735149009,
+                                            "text": "账户被冻结时修改密码",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsjqgypurk0",
+                                            "created": 1567735166617,
+                                            "text": "图形验证码为空时提交修改密码请求",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsjrmt30tc0",
+                                            "created": 1567735257702,
+                                            "text": "图形验证码错误时提交修改密码请求",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsjrsdfqsw0",
+                                            "created": 1567735269816,
+                                            "text": "手机验证码为空时提交修改密码请求",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsjrsgoe080",
+                                            "created": 1567735270012,
+                                            "text": "手机验证码错误时提交修改密码请求",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrwwmsg3jc0",
+                                            "created": 1567670763956,
+                                            "text": "重新获取短信验证码后用新验证码提交修改密码请求",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrwww4v5co0",
+                                            "created": 1567670784298,
+                                            "text": "重新获取短信验证码后用旧验证码提交修改密码请求",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrrc6wwfio0",
+                                            "created": 1567655056564,
+                                            "text": "重新获取图形验证码后用新图形验证码提交修改密码请求",
+                                            "usecase": 2,
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwrwxluawyg0",
+                                            "created": 1567670840256,
+                                            "text": "重新获取图形验证码后用旧图形验证码提交修改密码请求",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwsjnkcx8fc0",
+                                            "created": 1567734938914,
+                                            "text": "新密码与原密码一致",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwsjnq3tcrk0",
+                                                    "created": 1567734951424,
+                                                    "text": "可以设置成功",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwskiy3kc6w0",
+                                            "created": 1567737398112,
+                                            "text": "密码修改完成后重置密码错误次数",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwskj9oox5s0",
+                                            "created": 1567737423335,
+                                            "text": "当天已经修改一次密码后再次修改密码",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwskjfidghc0",
+                                                    "created": 1567737436013,
+                                                    "text": "不能再次修改，每天只能修改一次",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43",
+    "id": "bwrqyjilpwo0"
+}
