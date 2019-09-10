@@ -30,7 +30,7 @@
                             "created": 1567654228304,
                             "text": "试客登录/注册",
                             "layout": null,
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -400,7 +400,7 @@
                                             "id": "bwrx97qqa600",
                                             "created": 1567671749935,
                                             "text": "切换至商家",
-                                            "expandState": "expand"
+                                            "expandState": "collapse"
                                         },
                                         "children": [
                                             {
@@ -520,7 +520,7 @@
                                             "id": "bwryxcpnqjk0",
                                             "created": 1567676462604,
                                             "text": "用户服务协议",
-                                            "expandState": "expand"
+                                            "expandState": "collapse"
                                         },
                                         "children": [
                                             {
@@ -1485,7 +1485,7 @@
                             "created": 1567655140232,
                             "text": "商家登录/注册",
                             "layout": null,
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -2731,7 +2731,7 @@
                             "id": "bwrzr47hvn40",
                             "created": 1567678795016,
                             "text": "忘记密码",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
