@@ -1,0 +1,110 @@
+{
+    "root": {
+        "data": {
+            "id": "bwvwvgb7k5k0",
+            "created": 1568076911316,
+            "text": "有选好货"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bwvwvlvogu00",
+                    "created": 1568076923437,
+                    "text": "相关库表"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bwvwvv6515c0",
+                    "created": 1568076943661,
+                    "text": "功能用例"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwvwymwkkb40",
+                            "created": 1568077160760,
+                            "text": "活动banner"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwsqvwqazc00",
+                                    "created": 1567755340527,
+                                    "text": "banner图数量限制1-9",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwss194892g0",
+                                    "created": 1567758580422,
+                                    "text": "banner展示时间3秒",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwss1111tmw0",
+                                    "created": 1567758562815,
+                                    "text": "点击banner图跳转到对应的活动页面",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwss3bxlykg0",
+                                    "created": 1567758743280,
+                                    "text": "轮播结束后从第一张重新开始轮播",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwvxccku1280",
+                                    "created": 1568078235381,
+                                    "text": "banner图展示顺序以后台配置为准",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwvwyox233k0",
+                            "created": 1568077165143,
+                            "text": "筛选条件"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwvwz5vhjwg0",
+                            "created": 1568077202054,
+                            "text": "排序方式"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwvwz9j7cf40",
+                            "created": 1568077210018,
+                            "text": "商品列表"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43",
+    "id": "bwvwvgb7k5k0"
+}

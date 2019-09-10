@@ -60,7 +60,7 @@
                                         "data": {
                                             "id": "bwss1111tmw0",
                                             "created": 1567758562815,
-                                            "text": "点击banner图跳转到对应的页面",
+                                            "text": "点击banner图跳转到对应的活动页面",
                                             "usecase": 2
                                         },
                                         "children": []
@@ -70,6 +70,15 @@
                                             "id": "bwss3bxlykg0",
                                             "created": 1567758743280,
                                             "text": "轮播结束后从第一张重新开始轮播",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwvxccku1280",
+                                            "created": 1568078235381,
+                                            "text": "banner图展示顺序以后台配置为准",
                                             "usecase": 2
                                         },
                                         "children": []
@@ -744,7 +753,8 @@
                                 "data": {
                                     "id": "bwsqkz8tq7s0",
                                     "created": 1567754483995,
-                                    "text": "商品列表"
+                                    "text": "商品列表",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -807,6 +817,15 @@
                                                     "id": "bwtfop70pao0",
                                                     "created": 1567825303322,
                                                     "text": "百货"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvwucxvx7k0",
+                                                    "created": 1568076825616,
+                                                    "text": "排序方式待定",
+                                                    "progress": 2
                                                 },
                                                 "children": []
                                             }
@@ -1754,7 +1773,8 @@
                                 "data": {
                                     "id": "bwvaukzk3dk0",
                                     "created": 1568014778713,
-                                    "text": "快捷导航"
+                                    "text": "快捷导航",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -1765,6 +1785,738 @@
                                             "usecase": 2
                                         },
                                         "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bwvy567lgeg0",
+                                    "created": 1568080494081,
+                                    "text": "新人福利弹窗",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bwvyhhfi0g80",
+                                            "created": 1568081458873,
+                                            "text": "APP",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwvy9phopyg0",
+                                                    "created": 1568080849507,
+                                                    "text": "新用户注册成功，跳转到首页是否弹窗"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvybh6tk7k0",
+                                                            "created": 1568080988164,
+                                                            "text": "1.新注册用户",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvydjpe1y80",
+                                                            "created": 1568081150368,
+                                                            "text": "弹出新人福利弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvyax2cs2o0",
+                                                    "created": 1568080944358,
+                                                    "text": "新用户从其他页面切换到首页是否弹窗"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.未中过奖的用户 \n 2.已经弹窗过一次",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "从其他页面切换到首页",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "不会继续弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvydpdhlpc0",
+                                                    "created": 1568081162709,
+                                                    "text": "新用户退出登录后重新登录"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.未中过奖的用户 \n 2.已经弹窗过一次",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "退出登录后，重新登录后再次进入首页",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "弹出新人福利弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvydpdhlpc0",
+                                                    "created": 1568081162709,
+                                                    "text": "新用户Token失效后重新登录"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.未中过奖的用户 \n 2.已经弹窗过一次",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "Token失效后重新登录后再次进入首页",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "弹出新人福利弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvydpdhlpc0",
+                                                    "created": 1568081162709,
+                                                    "text": "新用户杀死APP进程后重新打开APP"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.未中过奖的用户 \n 2.已经弹窗过一次",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "杀死APP进程后再次打开APP",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "弹出新人福利弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvylh86h740",
+                                                    "created": 1568081771887,
+                                                    "text": "新用户已经在新人必中专区申请过任一商品，还未开奖时是否弹窗"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.新用户已经在新人必中专区申请过任一商品，但还未开奖",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "退出登录后重新登录，跳转到首页",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "弹出新人福利弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvylh86h740",
+                                                    "created": 1568081771887,
+                                                    "text": "新用户已经申请过试用活动，但未中奖，是否会弹窗"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.新用户已经申请过试用活动，但未中奖",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "退出登录后重新登录，跳转到首页",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "弹出新人福利弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvyo0ecors0",
+                                                    "created": 1568081970348,
+                                                    "text": "新用户已经申请过试用活动，已经中奖，处于待领奖状态，是否会继续弹窗"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.新用户已经申请过试用活动，已经中奖，处于待领奖状态",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "退出登录后重新登录，跳转到首页",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "不会继续弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvyo0ecors0",
+                                                    "created": 1568081970348,
+                                                    "text": "新用户已经申请过试用活动，已经中奖，超时未领奖，是否会继续弹窗"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.新用户已经申请过试用活动，已经中奖，超时未领奖",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "退出登录后重新登录，跳转到首页",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "不会继续弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvyo0ecors0",
+                                                    "created": 1568081970348,
+                                                    "text": "新用户已经申请过试用活动，已经中奖，且已领奖，是否会继续弹窗"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.新用户已经申请过试用活动，已经中奖，且已领奖",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "退出登录后重新登录，跳转到首页",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "不会继续弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwvyhkntojs0",
+                                            "created": 1568081465907,
+                                            "text": "H5",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwvy9phopyg0",
+                                                    "created": 1568080849507,
+                                                    "text": "新用户注册成功，跳转到首页是否弹窗"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvybh6tk7k0",
+                                                            "created": 1568080988164,
+                                                            "text": "1.新注册用户",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvydjpe1y80",
+                                                            "created": 1568081150368,
+                                                            "text": "弹出新人福利弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvyax2cs2o0",
+                                                    "created": 1568080944358,
+                                                    "text": "新用户从其他页面切换到首页是否弹窗"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.未中过奖的用户 \n 2.已经弹窗过一次",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "从其他页面切换到首页",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "不会继续弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvydpdhlpc0",
+                                                    "created": 1568081162709,
+                                                    "text": "新用户退出登录后重新登录"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.未中过奖的用户 \n 2.已经弹窗过一次",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "退出登录后，重新登录后再次进入首页",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "弹出新人福利弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvydpdhlpc0",
+                                                    "created": 1568081162709,
+                                                    "text": "新用户Token失效后重新登录"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.未中过奖的用户 \n 2.已经弹窗过一次",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "Token失效后重新登录后再次进入首页",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "弹出新人福利弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvydpdhlpc0",
+                                                    "created": 1568081162709,
+                                                    "text": "新用户在首页刷新页面 是否弹窗"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.未中过奖的用户 \n 2.已经弹窗过一次",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "在首页刷新页面",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "弹出新人福利弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvylh86h740",
+                                                    "created": 1568081771887,
+                                                    "text": "新用户已经在新人必中专区申请过任一商品，还未开奖时是否弹窗"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.新用户已经在新人必中专区申请过任一商品，但还未开奖",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "退出登录后重新登录，跳转到首页",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "弹出新人福利弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvylh86h740",
+                                                    "created": 1568081771887,
+                                                    "text": "新用户已经申请过试用活动，但未中奖，是否会弹窗"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.新用户已经申请过试用活动，但未中奖",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "退出登录后重新登录，跳转到首页",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "弹出新人福利弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvyo0ecors0",
+                                                    "created": 1568081970348,
+                                                    "text": "新用户已经申请过试用活动，已经中奖，处于待领奖状态，是否会继续弹窗"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.新用户已经申请过试用活动，已经中奖，处于待领奖状态",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "退出登录后重新登录，跳转到首页",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "不会继续弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvyo0ecors0",
+                                                    "created": 1568081970348,
+                                                    "text": "新用户已经申请过试用活动，已经中奖，超时未领奖，是否会继续弹窗"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.新用户已经申请过试用活动，已经中奖，超时未领奖",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "退出登录后重新登录，跳转到首页",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "不会继续弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvyo0ecors0",
+                                                    "created": 1568081970348,
+                                                    "text": "新用户已经申请过试用活动，已经中奖，且已领奖，是否会继续弹窗"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyboatxk00",
+                                                            "created": 1568081003644,
+                                                            "text": "1.新用户已经申请过试用活动，已经中奖，且已领奖",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyd7y3kyo0",
+                                                            "created": 1568081124774,
+                                                            "text": "退出登录后重新登录，跳转到首页",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvyddpdkzk0",
+                                                            "created": 1568081137307,
+                                                            "text": "不会继续弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     }
                                 ]
                             }
