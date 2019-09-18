@@ -761,7 +761,8 @@
                                         "data": {
                                             "id": "bwtfo9rfhd40",
                                             "created": 1567825269728,
-                                            "text": "筛选条件"
+                                            "text": "筛选条件",
+                                            "expandState": "collapse"
                                         },
                                         "children": [
                                             {
@@ -835,7 +836,8 @@
                                         "data": {
                                             "id": "bwtg9mn22rc0",
                                             "created": 1567826943409,
-                                            "text": "商品属性"
+                                            "text": "商品属性",
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
@@ -1504,7 +1506,7 @@
                                                     "id": "bwtizj84t1k0",
                                                     "created": 1567834615665,
                                                     "text": "免费申请",
-                                                    "expandState": "collapse"
+                                                    "expandState": "expand"
                                                 },
                                                 "children": [
                                                     {
@@ -1702,7 +1704,8 @@
                                                             "id": "bwvc6rsapm00",
                                                             "created": 1568018554991,
                                                             "text": "已关注的商品，下一期开始前是否会收到短信提醒？？？",
-                                                            "usecase": 2
+                                                            "usecase": 2,
+                                                            "progress": 2
                                                         },
                                                         "children": []
                                                     },
@@ -1793,7 +1796,7 @@
                                     "id": "bwvy567lgeg0",
                                     "created": 1568080494081,
                                     "text": "新人福利弹窗",
-                                    "expandState": "expand"
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -1801,7 +1804,7 @@
                                             "id": "bwvyhhfi0g80",
                                             "created": 1568081458873,
                                             "text": "APP",
-                                            "expandState": "expand"
+                                            "expandState": "collapse"
                                         },
                                         "children": [
                                             {
