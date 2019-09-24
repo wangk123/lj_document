@@ -3,12 +3,1556 @@
         "data": {
             "id": "bx2wrdnymfc0",
             "created": 1568787511796,
-            "text": "中心主题"
+            "text": "免单"
         },
-        "children": []
+        "children": [
+            {
+                "data": {
+                    "id": "bx2264qqsh40",
+                    "created": 1568701213429,
+                    "text": "库表相关"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bx1cyj7l02w0",
+                    "created": 1568630090261,
+                    "text": "功能用例"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwsq5bil8g00",
+                            "created": 1567753256880,
+                            "text": "banner",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwsqvwqazc00",
+                                    "created": 1567755340527,
+                                    "text": "banner图数量限制1-9",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwss194892g0",
+                                    "created": 1567758580422,
+                                    "text": "banner展示时间3秒",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwss1111tmw0",
+                                    "created": 1567758562815,
+                                    "text": "点击banner图跳转到对应的活动页面",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwss3bxlykg0",
+                                    "created": 1567758743280,
+                                    "text": "轮播结束后从第一张重新开始轮播",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwvxccku1280",
+                                    "created": 1568078235381,
+                                    "text": "banner图展示顺序以后台配置为准",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bx1dh4bhjww0",
+                            "created": 1568631546765,
+                            "text": "分享",
+                            "progress": 2,
+                            "layout_right_offset": {
+                                "x": -1,
+                                "y": -1
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bx1devm2irs0",
+                            "created": 1568631371085,
+                            "text": "兑换规则",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bx1dqvh1us00",
+                                    "created": 1568632311152,
+                                    "text": "点击兑换规则按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx1dr9mjekw0",
+                                            "created": 1568632341958,
+                                            "text": "弹出必中券兑换规则弹窗",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx1dq539d280",
+                                    "created": 1568632253721,
+                                    "text": "规则说明文案",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx1dqix4wiw0",
+                                            "created": 1568632283826,
+                                            "text": "文案显示完整正确",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx1dq7p7z6o0",
+                                    "created": 1568632259403,
+                                    "text": "去做任务链接",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx1dqmg89zs0",
+                                            "created": 1568632291511,
+                                            "text": "点击跳转到任务界面",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx1dqazcuds0",
+                                    "created": 1568632266546,
+                                    "text": "我知道了按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx1dqqzypd40",
+                                            "created": 1568632301411,
+                                            "text": "点击关闭弹窗",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bx1dfj20v280",
+                            "created": 1568631422116,
+                            "text": "今日可免单次数",
+                            "progress": null,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bx222kb90xs0",
+                                    "created": 1568700933864,
+                                    "text": "用户为普通会员，今日未兑换",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx222u7jm5s0",
+                                            "created": 1568700955408,
+                                            "text": "显示：今日可免单次数1次",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx222kb90xs0",
+                                    "created": 1568700933864,
+                                    "text": "用户为钻石会员，今日未兑换",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx222u7jm5s0",
+                                            "created": 1568700955408,
+                                            "text": "显示：今日可免单次数2次",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx222kb90xs0",
+                                    "created": 1568700933864,
+                                    "text": "用户为黑钻会员，今日未兑换",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx222u7jm5s0",
+                                            "created": 1568700955408,
+                                            "text": "显示：今日可免单次数3次",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx222kb90xs0",
+                                    "created": 1568700933864,
+                                    "text": "用户为官方认证会员，今日未兑换",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx222u7jm5s0",
+                                            "created": 1568700955408,
+                                            "text": "显示：今日可免单次数5次",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx222kb90xs0",
+                                    "created": 1568700933864,
+                                    "text": "用户为普通会员，今日已兑换1次",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx222u7jm5s0",
+                                            "created": 1568700955408,
+                                            "text": "显示：今日可免单次数0次",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx222kb90xs0",
+                                    "created": 1568700933864,
+                                    "text": "用户为官方认证会员，今日已兑换5次，平台撤销会员后，用户降级为普通会员，查看兑换次数",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx222u7jm5s0",
+                                            "created": 1568700955408,
+                                            "text": "显示：今日可免单次数0次",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bx1dfo9k3go0",
+                            "created": 1568631433455,
+                            "text": "我的等级",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bx222kb90xs0",
+                                    "created": 1568700933864,
+                                    "text": "用户为普通会员",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx222u7jm5s0",
+                                            "created": 1568700955408,
+                                            "text": "显示：我的等级 普通会员",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx222kb90xs0",
+                                    "created": 1568700933864,
+                                    "text": "用户为钻石会员",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx222u7jm5s0",
+                                            "created": 1568700955408,
+                                            "text": "显示：我的等级 钻石会员",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx222kb90xs0",
+                                    "created": 1568700933864,
+                                    "text": "用户为黑钻会员",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx222u7jm5s0",
+                                            "created": 1568700955408,
+                                            "text": "显示：我的等级 黑钻会员",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx222kb90xs0",
+                                    "created": 1568700933864,
+                                    "text": "用户为官方认证会员",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx222u7jm5s0",
+                                            "created": 1568700955408,
+                                            "text": "显示：我的等级 官方认证会员",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx2x9yqrzwo0",
+                                    "created": 1568788968234,
+                                    "text": "用户未钻石会员，会员到期后刷新页面",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx222u7jm5s0",
+                                            "created": 1568700955408,
+                                            "text": "显示：我的等级 普通会员",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx222kb90xs0",
+                                    "created": 1568700933864,
+                                    "text": "用户为官方认证会员，管理后台撤销会员",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx222u7jm5s0",
+                                            "created": 1568700955408,
+                                            "text": "显示：我的等级 普通会员",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bx2wtsqnh5s0",
+                            "created": 1568787701339,
+                            "text": "赚次数",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bx21vjiqdeo0",
+                                    "created": 1568700383590,
+                                    "text": "点击赚次数",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx21vm678io0",
+                                            "created": 1568700389363,
+                                            "text": "跳转到赚必中页面",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bx1vn5ihaa00",
+                            "created": 1568682799527,
+                            "text": "时间段",
+                            "progress": null,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bx30rbfnvg00",
+                                    "created": 1568798791381,
+                                    "text": "21点到次日8点，查看时间段展示",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx30rm8uimg0",
+                                            "created": 1568798814913,
+                                            "text": "显示：  1. 8:00  即将开场  2. 9:00 即将开场",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx30rbfnvg00",
+                                    "created": 1568798791381,
+                                    "text": "8点，查看时间段展示",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx30rm8uimg0",
+                                            "created": 1568798814913,
+                                            "text": "显示：  1. 8:00  正在免单  2. 9:00 即将开场",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx30rbfnvg00",
+                                    "created": 1568798791381,
+                                    "text": "9点，查看时间段展示",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx30rm8uimg0",
+                                            "created": 1568798814913,
+                                            "text": "显示：  1. 9:00  正在免单  2. 10:00 即将开场",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx30rbfnvg00",
+                                    "created": 1568798791381,
+                                    "text": "20点，查看时间段展示",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx30rm8uimg0",
+                                            "created": 1568798814913,
+                                            "text": "显示：  1. 20:00  正在免单  2. 8:00 即将开场",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bx1vn7a6y080",
+                            "created": 1568682803380,
+                            "text": "排序方式",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bx21w1jpns00",
+                                    "created": 1568700422832,
+                                    "text": "综合"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx21w30xvs00",
+                                    "created": 1568700426050,
+                                    "text": "价格"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx21w3wlqw00",
+                                    "created": 1568700427965,
+                                    "text": "剩余"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bx1vnb76ym00",
+                            "created": 1568682811906,
+                            "text": "商品列表",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bx1vngwm9600",
+                                    "created": 1568682824327,
+                                    "text": "商品属性",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bwtiyf3fqa00",
+                                            "created": 1567834528309,
+                                            "text": "商品图片",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwv5ye409fs0",
+                                                    "created": 1568000971652,
+                                                    "text": "jpg格式图片显示正常",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwv5ynl2w600",
+                                                    "created": 1568000992275,
+                                                    "text": "jpeg格式图片显示正常 ",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwv5yrz1dc80",
+                                                    "created": 1568001001826,
+                                                    "text": "png格式图片显示正常",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwv60l6ope80",
+                                                    "created": 1568001143779,
+                                                    "text": "尺寸大于800X800的图片",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwv60w7qq5c0",
+                                                            "created": 1568001167788,
+                                                            "text": "自动裁剪",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwv60l6ope80",
+                                                    "created": 1568001143779,
+                                                    "text": "尺寸小于？？？的图片",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwv60l6ope80",
+                                                            "created": 1568001143779,
+                                                            "text": "自适应",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvb15czocw0",
+                                                    "created": 1568015293246,
+                                                    "text": "登录用户已申请过该商品",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvb1cpxt8w0",
+                                                            "created": 1568015309266,
+                                                            "text": "1.账号已登录  2.已申请过该商品",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvb1u03jmg0",
+                                                            "created": 1568015346886,
+                                                            "text": "图片置灰，显示已申请标签",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvbb2ea2e80",
+                                                    "created": 1568016070435,
+                                                    "text": "当前时间段申请人数已满，检查图片下方标识",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvbg8m2dw80",
+                                                            "created": 1568016475787,
+                                                            "text": "1.该时间段预置发放件数已全部发放完毕  \n 2.下一时间段时间未到",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvbchydu4w0",
+                                                            "created": 1568016182667,
+                                                            "text": "检查图片下方标记  \n 新增  当前申请人数已满，下期将于09-06 08:00开启 标记",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvbb2ea2e80",
+                                                    "created": 1568016070435,
+                                                    "text": "当前时间段申请人数已满，检查图片下方标识内时间段",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvbg8m2dw80",
+                                                            "created": 1568016475787,
+                                                            "text": "1.该时间段预置发放件数已全部发放完毕  \n 2.下一时间段时间未到",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvbchydu4w0",
+                                                            "created": 1568016182667,
+                                                            "text": "检查图片下方标记内的时间\n时间与该商品下一期时间段一致",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvbb2ea2e80",
+                                                    "created": 1568016070435,
+                                                    "text": "当前时间段申请人数已满且已无后续试用计划，检查图片下方标识",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvbg8m2dw80",
+                                                            "created": 1568016475787,
+                                                            "text": "1.该时间段预置发放件数已全部发放完毕  \n 2.该活动已无后续试用计划",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvbchydu4w0",
+                                                            "created": 1568016182667,
+                                                            "text": "检查图片下方标记  \n 新增  当前申请人数已满，好物申请人数已满",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvbb2ea2e80",
+                                                    "created": 1568016070435,
+                                                    "text": "当前时间段申请人数已满，等待下一期活动开始后检查图片下方标识",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvbg8m2dw80",
+                                                            "created": 1568016475787,
+                                                            "text": "1.该时间段预置发放件数已全部发放完毕  \n 2.下一时间段时间未到",
+                                                            "usecase": 1
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvbngjwckg0",
+                                                            "created": 1568017041620,
+                                                            "text": "等待下一期活动开始，刷新页面后检查图片下方标记",
+                                                            "usecase": 4
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvbchydu4w0",
+                                                            "created": 1568016182667,
+                                                            "text": "标记已移除，该商品已可以继续申请",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwtiyhs95ew0",
+                                            "created": 1567834534163,
+                                            "text": "平台logo",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwv61ks289s0",
+                                                    "created": 1568001221259,
+                                                    "text": "淘宝店铺的活动，logo显示正确",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwv61m8tu5k0",
+                                                    "created": 1568001224450,
+                                                    "text": "天猫店铺的活动，logo显示正确",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwv61nukb200",
+                                                    "created": 1568001227941,
+                                                    "text": "1688店铺的活动，logo显示正确",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwv61pbs4hk0",
+                                                    "created": 1568001231159,
+                                                    "text": "拼多多店铺的活动，logo显示正确",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwv61qpmhy80",
+                                                    "created": 1568001234173,
+                                                    "text": "京东店铺的活动，logo显示正确",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwtiyl67p680",
+                                            "created": 1567834541538,
+                                            "text": "商品标题",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwv63rk2wyo0",
+                                                    "created": 1568001392742,
+                                                    "text": "包含表情🙄的标题",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwv6662q3yo0",
+                                                            "created": 1568001581073,
+                                                            "text": "完整显示",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwv64geglvc0",
+                                                    "created": 1568001446822,
+                                                    "text": "包含字符的标题！@#￥%……&****",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwv665o1m740",
+                                                            "created": 1568001580185,
+                                                            "text": "完整显示",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwv64ru7yzc0",
+                                                    "created": 1568001471720,
+                                                    "text": "包含空格的标题",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwv664cfyk80",
+                                                            "created": 1568001577307,
+                                                            "text": "完整显示",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwv64zolvco0",
+                                                    "created": 1568001488795,
+                                                    "text": "长度等于8的标题",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwv660d9uhs0",
+                                                            "created": 1568001568650,
+                                                            "text": "完整显示",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwv65o8m7eo0",
+                                                    "created": 1568001542247,
+                                                    "text": "长度大于8的标题",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwv65r5w01k0",
+                                                            "created": 1568001548613,
+                                                            "text": "超出部分省略......",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwtiz6ll8400",
+                                            "created": 1567834588180,
+                                            "text": "商品标签",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwvaswr95940",
+                                                    "created": 1568014647604,
+                                                    "text": "红包-商家选择红包奖励增值服务的商品",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvd3o6l7bk0",
+                                                            "created": 1568021133166,
+                                                            "text": "显示红包标签"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvcvohtmm00",
+                                                    "created": 1568020506932,
+                                                    "text": "包邮-商家发布活动时选择了全国包邮",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvd8124ag00",
+                                                            "created": 1568021474650,
+                                                            "text": "显示包邮标签"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvcvtdswj40",
+                                                    "created": 1568020517572,
+                                                    "text": "花呗-该商品支持花呗支付",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvcvv9kdpc0",
+                                                    "created": 1568020521670,
+                                                    "text": "信用卡-该商品支持信用卡支付",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvcvweu3fk0",
+                                                    "created": 1568020524165,
+                                                    "text": "申请有奖-完成申请就可以获得10经验值的奖励",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvcvzqt9nk0",
+                                                    "created": 1568020531420,
+                                                    "text": "下单有奖-完成申请就可以获得10经验值的奖励",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvcw2b3uiw0",
+                                                    "created": 1568020537000,
+                                                    "text": "券兑-该商品支持必中券兑换，获取必中资格",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvcw69tscw0",
+                                                    "created": 1568020545630,
+                                                    "text": "花币兑-该商品支持花币兑换，获取必中资格",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvcwa1z6go0",
+                                                    "created": 1568020553863,
+                                                    "text": "买家秀-该商品为买家秀专属商品，完成买家秀评价将额外获得20经验值",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvcwe9h8140",
+                                                    "created": 1568020563023,
+                                                    "text": "视频评价-该商品需要视频评价，完成视频评价将额外获得50经验值",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvcwh5ksqw0",
+                                                    "created": 1568020569318,
+                                                    "text": "晒图评价-该商品需要晒图评价，完成晒图评价将额外获得20经验值",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvcz982jpk0",
+                                                    "created": 1568020787147,
+                                                    "text": "高品质",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvdy8p1aa80",
+                                                    "created": 1568023528742,
+                                                    "text": "该商品不属于以上任何一种情况",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvdylhbsvc0",
+                                                            "created": 1568023556574,
+                                                            "text": "标签栏位置为空",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwvdzrqvqao0",
+                                                    "created": 1568023648576,
+                                                    "text": "该商品存在三种标签",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwvdzyeqk800",
+                                                            "created": 1568023663079,
+                                                            "text": "三种标签全部显示正确",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwve0ucxnz40",
+                                                    "created": 1568023732627,
+                                                    "text": "该商品存在三种以上标签",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwve1b09pm00",
+                                                            "created": 1568023768867,
+                                                            "text": "只显示三种标签，根据以下优先级排序：红包>包邮>花呗>信用卡>申请有奖>下单有奖>券兑>花币兑>买家秀>晒图评价>视频评价>高品质",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwtiyq1b43k0",
+                                            "created": 1567834552125,
+                                            "text": "商品价格",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwv8md95ngo0",
+                                                    "created": 1568008492746,
+                                                    "text": "保留两位小数，示例：￥199.00",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bx1vpxaxiog0",
+                                            "created": 1568683016749,
+                                            "text": "剩余份数",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bx1xkhwnhbc0",
+                                                    "created": 1568688233634,
+                                                    "text": "商品该期剩余花币兑换份数5份",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bx1xku8f7oo0",
+                                                            "created": 1568688260466,
+                                                            "text": "显示：剩余5份",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bx1xl2cwcrk0",
+                                                    "created": 1568688278151,
+                                                    "text": "商品该期剩余花币兑换份数1份，必中券兑换5份",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bx1xlcmdk3s0",
+                                                            "created": 1568688300492,
+                                                            "text": "显示：剩余1份",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bx1xs7zlr6g0",
+                                                    "created": 1568688838957,
+                                                    "text": "商品该期剩余花币兑换份数0份，免费试用份数10份",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bx1xsp37jrk0",
+                                                            "created": 1568688876180,
+                                                            "text": "显示：剩余0份",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bx1ym1h0x600",
+                                                    "created": 1568691175698,
+                                                    "text": "后台配置当天花币兑换份数10份，查看每个时间段可兑换份数",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bx1ymvhpzhk0",
+                                                            "created": 1568691241043,
+                                                            "text": "8点：10/3=4份(向上取整)，13点：10/2=5份，18点：10-4-5=1份",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bx1ym1h0x600",
+                                                    "created": 1568691175698,
+                                                    "text": "后台配置当天花币兑换份数9份，查看每个时间段可兑换份数",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bx1ymvhpzhk0",
+                                                            "created": 1568691241043,
+                                                            "text": "8点：9/3=3份，13点：9/2=5份(向上取整)，18点：10-3-5=1份",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bx1ym1h0x600",
+                                                    "created": 1568691175698,
+                                                    "text": "后台配置当天花币兑换份数3份，查看每个时间段可兑换份数",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bx1ymvhpzhk0",
+                                                            "created": 1568691241043,
+                                                            "text": "8点：1/3=1份，13点：3/2=2份(向上取整)，18点：3-1-2=0份",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bx1vpiytq9k0",
+                                            "created": 1568682985542,
+                                            "text": "马上抢按钮",
+                                            "usecase": null,
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bx1wds1eo4o0",
+                                                    "created": 1568684886029,
+                                                    "text": "当期必中券可兑换份数≥一份",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bx1we3q9lj40",
+                                                            "created": 1568684911477,
+                                                            "text": "按钮显示为马上兑，点击进入商品详情页",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bx1weawpksw0",
+                                                    "created": 1568684927104,
+                                                    "text": "当期必中券可兑换份数等于零",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bx1weqwwl8w0",
+                                                            "created": 1568684961945,
+                                                            "text": "按钮显示为申请试用，点击进入商品详情页",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bx1wf7lb2ko0",
+                                                    "created": 1568684998249,
+                                                    "text": "商品当前申请人数已满",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bx1yv4er6js0",
+                                                            "created": 1568691887368,
+                                                            "text": "按钮显示为申请试用，点击进入商品详情页",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bx1yveahnf40",
+                                                    "created": 1568691908878,
+                                                    "text": "必中兑换活动未开始未关注的商品",
+                                                    "usecase": 2,
+                                                    "progress": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bx1yvjh3mq80",
+                                                            "created": 1568691920162,
+                                                            "text": "按钮显示为关注，点击后提示设置关注成功，按钮变更为已关注",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bx1yveahnf40",
+                                                    "created": 1568691908878,
+                                                    "text": "必中兑换活动未开始已关注的商品",
+                                                    "usecase": 2,
+                                                    "progress": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bx1yvjh3mq80",
+                                                            "created": 1568691920162,
+                                                            "text": "按钮显示为已关注，点击后提示取消关注，按钮变更为关注",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bx251o05f0g0",
+                                                    "created": 1568709326865,
+                                                    "text": "关注成功后等待活动开始",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bx2q1gsuxhc0",
+                                                            "created": 1568768554495,
+                                                            "text": "活动开始前10分钟 \n APP收到通知消息：亲，您关注的商品将于XX:00开抢！快去花蜜街免费领取吧~   \n H5收到短信：  【花蜜街】亲，您关注的商品将于XX:00开抢！快去花蜜街免费领取吧~",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bx2q3ye7m2g0",
+                                                    "created": 1568768749520,
+                                                    "text": "关注成功后再次取消成功，等待活动开始",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bx2q465tntc0",
+                                                            "created": 1568768766427,
+                                                            "text": "活动开始前不会收到任何通知消息",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bx2q4lznsaw0",
+                                                    "created": 1568768800883,
+                                                    "text": "取消成功后，再次关注成功，等待活动开始",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bx2q1gsuxhc0",
+                                                            "created": 1568768554495,
+                                                            "text": "活动开始前10分钟 \n APP收到通知消息：亲，您关注的商品将于XX:00开抢！快去花蜜街免费领取吧~   \n H5收到短信：  【花蜜街】亲，您关注的商品将于XX:00开抢！快去花蜜街免费领取吧~",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bx2q56bxom80",
+                                                    "created": 1568768845161,
+                                                    "text": "活动开始前10分钟内关注成功后，是否可以收到提醒",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bx2q5okvbk00",
+                                                            "created": 1568768884883,
+                                                            "text": "分支主题",
+                                                            "usecase": 3,
+                                                            "progress": 2
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bx1vnyaox540",
+                                    "created": 1568682862183,
+                                    "text": "分页",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bwvz7hd1hk00",
+                                            "created": 1568083496193,
+                                            "text": "该分类下无商品",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bww01gqjppc0",
+                                            "created": 1568085845758,
+                                            "text": "只有一件商品",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bww01ojv93k0",
+                                            "created": 1568085862768,
+                                            "text": "大于30件商品",
+                                            "usecase": 2,
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bww01yr5uow0",
+                                                    "created": 1568085884977,
+                                                    "text": "只展示前30件商品，下拉刷新展示后30件商品",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
-    "template": "default",
-    "theme": "fresh-blue",
+    "template": "right",
+    "theme": "fresh-blue-compat",
     "version": "1.4.43",
     "id": "bx2wrdnymfc0"
 }

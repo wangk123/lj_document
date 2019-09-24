@@ -551,7 +551,7 @@
                                     "created": 1567654922350,
                                     "text": "密码登录",
                                     "layout": null,
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -608,7 +608,7 @@
                                             "id": "bwryzsiy2lk0",
                                             "created": 1567676653755,
                                             "text": "密码",
-                                            "expandState": "collapse"
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
@@ -1156,7 +1156,7 @@
                                             "id": "bwrzmwgfp1s0",
                                             "created": 1567678464686,
                                             "text": "手机号",
-                                            "expandState": "collapse"
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
@@ -1197,6 +1197,15 @@
                                                     "usecase": 2
                                                 },
                                                 "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bx7bto5r1fk0",
+                                                    "created": 1569236247843,
+                                                    "text": "虚拟运营商手机号",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
                                             }
                                         ]
                                     },
@@ -1205,7 +1214,7 @@
                                             "id": "bwrzmzfzx1k0",
                                             "created": 1567678471190,
                                             "text": "图形验证码",
-                                            "expandState": "collapse"
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
@@ -1252,7 +1261,7 @@
                                             "id": "bwrzn2bzqw00",
                                             "created": 1567678477478,
                                             "text": "手机验证码",
-                                            "expandState": "collapse"
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
@@ -1344,7 +1353,7 @@
                                             "id": "bwrzn432yhc0",
                                             "created": 1567678481293,
                                             "text": "确定",
-                                            "expandState": "collapse"
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
@@ -1493,7 +1502,7 @@
                                     "id": "bwsltk2nhpc0",
                                     "created": 1567741050698,
                                     "text": "注册",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -3182,7 +3191,7 @@
         ]
     },
     "template": "right",
-    "theme": "fresh-blue",
+    "theme": "fresh-blue-compat",
     "version": "1.4.43",
     "id": "bwrqyjilpwo0"
 }
