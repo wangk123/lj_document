@@ -181,7 +181,7 @@
                             "id": "bwvzbogs5s80",
                             "created": 1568083825113,
                             "text": "筛选条件",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -585,7 +585,8 @@
                         "data": {
                             "id": "bwvwz5vhjwg0",
                             "created": 1568077202054,
-                            "text": "排序方式"
+                            "text": "排序方式",
+                            "expandState": "expand"
                         },
                         "children": [
                             {

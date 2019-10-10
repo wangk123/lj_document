@@ -1,0 +1,723 @@
+{
+    "root": {
+        "data": {
+            "id": "bxjzlcwlxj40",
+            "created": 1570522022552,
+            "text": "试用指南"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bxkwm2dbuag0",
+                    "created": 1570615174608,
+                    "text": "库表相关"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bxkwm3teo2o0",
+                    "created": 1570615177757,
+                    "text": "功能用例"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bxkwnkx36fc0",
+                            "created": 1570615293349,
+                            "text": "问题分类",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bxkwn8hnzew0",
+                                    "created": 1570615266295,
+                                    "text": "新手教程"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkwoqhe2000",
+                                            "created": 1570615383825,
+                                            "text": "点击新手教程按钮",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkwotff5qg0",
+                                                    "created": 1570615390236,
+                                                    "text": "跳转到新手教程视频页面",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkwnamjdww0",
+                                    "created": 1570615270943,
+                                    "text": "使用流程"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkwp0njuc00",
+                                            "created": 1570615405965,
+                                            "text": "点击试用流程按钮",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkwp3dfii00",
+                                                    "created": 1570615411883,
+                                                    "text": "跳转到试用流程页面",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkwncg09y80",
+                                    "created": 1570615274902,
+                                    "text": "提现相关"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkx04rmwfs0",
+                                            "created": 1570616276926,
+                                            "text": "点击提现相关按钮",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx07snehs0",
+                                                    "created": 1570616283517,
+                                                    "text": "跳转到提现相关问题页面",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bxkwnepp0s00",
+                            "created": 1570615279841,
+                            "text": "专属客服banner",
+                            "progress": 2
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bxkwnh40kj40",
+                            "created": 1570615285061,
+                            "text": "常见问题",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bxkwobjpis00",
+                                    "created": 1570615351313,
+                                    "text": "新手问题"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkx14m46lc0",
+                                            "created": 1570616354955,
+                                            "text": "查看新手问题分类",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx1ahnqzc0",
+                                                    "created": 1570616367747,
+                                                    "text": "显示所有新手问题分类的问题",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx2mnc1yo0",
+                                            "created": 1570616472575,
+                                            "text": "新增新手问题分类的问题，刷新页面后查看",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx1ahnqzc0",
+                                                    "created": 1570616367747,
+                                                    "text": "显示所有新手问题分类的问题",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx2vl7e680",
+                                            "created": 1570616492038,
+                                            "text": "删除新手问题分类的问题，刷新页面后查看",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx1ahnqzc0",
+                                                    "created": 1570616367747,
+                                                    "text": "显示所有新手问题分类的问题",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx5jvsp7k0",
+                                            "created": 1570616701649,
+                                            "text": "点击新手问题分类下 问题A",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx5s5uz8w0",
+                                                    "created": 1570616719672,
+                                                    "text": "展开问题A的内容",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx5jvsp7k0",
+                                            "created": 1570616701649,
+                                            "text": "点击新手问题分类下 问题A，再次点击问题B",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx5s5uz8w0",
+                                                    "created": 1570616719672,
+                                                    "text": "收起问题A的内容，并展开问题B的内容",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkwod9nlr40",
+                                    "created": 1570615355059,
+                                    "text": "试用申请"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkx14m46lc0",
+                                            "created": 1570616354955,
+                                            "text": "查看试用申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx1ahnqzc0",
+                                                    "created": 1570616367747,
+                                                    "text": "显示所有试用申请分类的问题",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx2mnc1yo0",
+                                            "created": 1570616472575,
+                                            "text": "新增试用申请分类的问题，刷新页面后查看",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx1ahnqzc0",
+                                                    "created": 1570616367747,
+                                                    "text": "显示所有试用申请分类的问题",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx2vl7e680",
+                                            "created": 1570616492038,
+                                            "text": "删除试用申请分类的问题，刷新页面后查看",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx1ahnqzc0",
+                                                    "created": 1570616367747,
+                                                    "text": "显示所有试用申请分类的问题",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx5jvsp7k0",
+                                            "created": 1570616701649,
+                                            "text": "点击试用申请分类下 问题A",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx5s5uz8w0",
+                                                    "created": 1570616719672,
+                                                    "text": "展开问题A的内容",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx5jvsp7k0",
+                                            "created": 1570616701649,
+                                            "text": "点击试用申请分类下 问题A，再次点击问题B",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx5s5uz8w0",
+                                                    "created": 1570616719672,
+                                                    "text": "收起问题A的内容，并展开问题B的内容",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkwof2l3ig0",
+                                    "created": 1570615358985,
+                                    "text": "下单领取"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkx14m46lc0",
+                                            "created": 1570616354955,
+                                            "text": "查看下单领取分类",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx1ahnqzc0",
+                                                    "created": 1570616367747,
+                                                    "text": "显示所有下单领取分类的问题",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx2mnc1yo0",
+                                            "created": 1570616472575,
+                                            "text": "新增下单领取分类的问题，刷新页面后查看",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx1ahnqzc0",
+                                                    "created": 1570616367747,
+                                                    "text": "显示所有下单领取分类的问题",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx2vl7e680",
+                                            "created": 1570616492038,
+                                            "text": "删除下单领取分类的问题，刷新页面后查看",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx1ahnqzc0",
+                                                    "created": 1570616367747,
+                                                    "text": "显示所有下单领取分类的问题",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx5jvsp7k0",
+                                            "created": 1570616701649,
+                                            "text": "点击下单领取分类下 问题A",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx5s5uz8w0",
+                                                    "created": 1570616719672,
+                                                    "text": "展开问题A的内容",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx5jvsp7k0",
+                                            "created": 1570616701649,
+                                            "text": "点击下单领取分类下 问题A，再次点击问题B",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx5s5uz8w0",
+                                                    "created": 1570616719672,
+                                                    "text": "收起问题A的内容，并展开问题B的内容",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkwohn7v7k0",
+                                    "created": 1570615364586,
+                                    "text": "收货评价"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkx14m46lc0",
+                                            "created": 1570616354955,
+                                            "text": "查看收货评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx1ahnqzc0",
+                                                    "created": 1570616367747,
+                                                    "text": "显示所有收货评价分类的问题",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx2mnc1yo0",
+                                            "created": 1570616472575,
+                                            "text": "新增收货评价分类的问题，刷新页面后查看",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx1ahnqzc0",
+                                                    "created": 1570616367747,
+                                                    "text": "显示所有收货评价分类的问题",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx2vl7e680",
+                                            "created": 1570616492038,
+                                            "text": "删除收货评价分类的问题，刷新页面后查看",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx1ahnqzc0",
+                                                    "created": 1570616367747,
+                                                    "text": "显示所有收货评价分类的问题",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx5jvsp7k0",
+                                            "created": 1570616701649,
+                                            "text": "点击收货评价分类下 问题A",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx5s5uz8w0",
+                                                    "created": 1570616719672,
+                                                    "text": "展开问题A的内容",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx5jvsp7k0",
+                                            "created": 1570616701649,
+                                            "text": "点击收货评价分类下 问题A，再次点击问题B",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx5s5uz8w0",
+                                                    "created": 1570616719672,
+                                                    "text": "收起问题A的内容，并展开问题B的内容",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkwojfxtqo0",
+                                    "created": 1570615368500,
+                                    "text": "试用规则"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkx14m46lc0",
+                                            "created": 1570616354955,
+                                            "text": "查看试用规则分类",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx1ahnqzc0",
+                                                    "created": 1570616367747,
+                                                    "text": "显示所有试用规则分类的问题",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx2mnc1yo0",
+                                            "created": 1570616472575,
+                                            "text": "新增试用规则分类的问题，刷新页面后查看",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx1ahnqzc0",
+                                                    "created": 1570616367747,
+                                                    "text": "显示所有试用规则分类的问题",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx2vl7e680",
+                                            "created": 1570616492038,
+                                            "text": "删除试用规则分类的问题，刷新页面后查看",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx1ahnqzc0",
+                                                    "created": 1570616367747,
+                                                    "text": "显示所有试用规则分类的问题",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx5jvsp7k0",
+                                            "created": 1570616701649,
+                                            "text": "点击试用规则分类下 问题A",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx5s5uz8w0",
+                                                    "created": 1570616719672,
+                                                    "text": "展开问题A的内容",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxkx5jvsp7k0",
+                                            "created": 1570616701649,
+                                            "text": "点击试用规则分类下 问题A，再次点击问题B",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxkx5s5uz8w0",
+                                                    "created": 1570616719672,
+                                                    "text": "收起问题A的内容，并展开问题B的内容",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bxkx10ruyu80",
+                            "created": 1570616346596,
+                            "text": "我要反馈",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bxkx776l0lc0",
+                                    "created": 1570616830732,
+                                    "text": "点击我要反馈按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkx79ozetk0",
+                                            "created": 1570616836198,
+                                            "text": "跳转到意见反馈页面",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bxkx126ng3k0",
+                            "created": 1570616349667,
+                            "text": "客服",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bxkx7mu4zd40",
+                                    "created": 1570616864808,
+                                    "text": "点击客服按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkx7pw59bk0",
+                                            "created": 1570616871459,
+                                            "text": "跳转到小蜜客服聊天界面",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43",
+    "id": "bxjzlcwlxj40"
+}

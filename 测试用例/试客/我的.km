@@ -27,7 +27,7 @@
                             "id": "bx3lua46gr40",
                             "created": 1568858266910,
                             "text": "个人信息区域",
-                            "expandState": "expand"
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -35,7 +35,7 @@
                                     "id": "bx3l2ni0bww0",
                                     "created": 1568856101848,
                                     "text": "头像",
-                                    "expandState": "expand"
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -117,7 +117,7 @@
                                     "id": "bx3lcscxdzc0",
                                     "created": 1568856896066,
                                     "text": "昵称",
-                                    "expandState": "expand"
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {

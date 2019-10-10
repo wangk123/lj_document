@@ -1,0 +1,772 @@
+{
+    "root": {
+        "data": {
+            "id": "bxjzkissoy00",
+            "created": 1570521957017,
+            "text": "新人大礼包"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bxkob09td8g0",
+                    "created": 1570591739157,
+                    "text": "库表相关"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bxkob3529uw0",
+                    "created": 1570591745400,
+                    "text": "功能用例"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bxkobs9vb280",
+                            "created": 1570591800110,
+                            "text": "第一弹 新人必中专区",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bxkomo29a5s0",
+                                    "created": 1570592652949,
+                                    "text": "未申请过新人必中商品，查看免费领取按钮状态",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkomy0zuc80",
+                                    "created": 1570592674640,
+                                    "text": "已申请新人必中商品，处于申请中时，查看免费领取按钮状态",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkon4u0tvk0",
+                                    "created": 1570592689456,
+                                    "text": "已申请新人必中商品，处于开奖中时，查看免费领取按钮状态",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkonqe2hx40",
+                                    "created": 1570592736381,
+                                    "text": "已申请新人必中商品，超时未领奖，查看免费领取按钮状态",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkoo0mgbc00",
+                                    "created": 1570592758655,
+                                    "text": "已申请新人必中商品，取消领奖，查看免费领取按钮状态",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkooq4gj8o0",
+                                    "created": 1570592814164,
+                                    "text": "已申请其他非新人必中商品，处于开奖中时，查看免费领取按钮状态",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkr9n2ncio0",
+                                    "created": 1570600095391,
+                                    "text": "已申请其他非新人必中商品，已中奖时，查看免费领取按钮状态",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkopx273xc0",
+                                    "created": 1570592907628,
+                                    "text": "点击免费领取按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkoq0kxgo00",
+                                            "created": 1570592915291,
+                                            "text": "跳转到新人专区",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkoqp29h680",
+                                    "created": 1570592968582,
+                                    "text": "点击已领取按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkoqr8ksgo0",
+                                            "created": 1570592973318,
+                                            "text": "无响应",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bxkobvr1rns0",
+                            "created": 1570591807679,
+                            "text": "第二弹 更多经验值 助你快速成长",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bxkrgsmvduo0",
+                                    "created": 1570600656047,
+                                    "text": "新用户第一天申请成功1次，查看第一天的任务状态",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkrhuvhri00",
+                                            "created": 1570600739286,
+                                            "text": "显示：第1天 已申请1次，任务未完成",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkrgsmvduo0",
+                                    "created": 1570600656047,
+                                    "text": "新用户第一天申请成功2次，查看第一天的任务状态",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkrhuvhri00",
+                                            "created": 1570600739286,
+                                            "text": "显示：第1天 已申请2次，任务已完成，且自动获得30经验值",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkrgsmvduo0",
+                                    "created": 1570600656047,
+                                    "text": "新用户第一天申请成功3次，查看第一天的任务状态",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkrhuvhri00",
+                                            "created": 1570600739286,
+                                            "text": "显示：第1天 已申请3次，任务已完成，不会再次获得经验值",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkrkxj32w00",
+                                    "created": 1570600980159,
+                                    "text": "新用户第一天任务已完成，第二天完成申请1次，查看任务状态",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkrl8d9img0",
+                                            "created": 1570601003751,
+                                            "text": "显示：第1天任务已完成，申请次数不变  第2天已申请1次，任务未完成",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkrkxj32w00",
+                                    "created": 1570600980159,
+                                    "text": "新用户第一天任务已完成，第二天完成申请3次，查看任务状态",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkrl8d9img0",
+                                            "created": 1570601003751,
+                                            "text": "显示：第1天任务已完成，申请次数不变  第2天已申请3次，任务已完成，且自动获得30经验值",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkrkxj32w00",
+                                    "created": 1570600980159,
+                                    "text": "新用户第一天任务已完成，第二天完成申请4次，查看任务状态",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkrl8d9img0",
+                                            "created": 1570601003751,
+                                            "text": "显示：第1天任务已完成，申请次数不变  第2天已申请4次，任务已完成，不会再次获得经验值",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkvvoxlck80",
+                                    "created": 1570613107890,
+                                    "text": "新用户第一天任务未完成，第二天完成申请3次，查看任务状态",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkrl8d9img0",
+                                            "created": 1570601003751,
+                                            "text": "显示：第1天任务未完成，申请次数不变  第2天已申请3次，任务已完成",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkrkxj32w00",
+                                    "created": 1570600980159,
+                                    "text": "新用户第一天、第二天任务均已完成，第三天完成申请1次，查看任务状态",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkrl8d9img0",
+                                            "created": 1570601003751,
+                                            "text": "显示：第1天、第2天任务已完成，申请次数不变  第3天已申请1次，任务未完成",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkrkxj32w00",
+                                    "created": 1570600980159,
+                                    "text": "新用户第一天、第二天任务均已完成，第三天完成申请5次，查看任务状态",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkrl8d9img0",
+                                            "created": 1570601003751,
+                                            "text": "显示：第1天、第2天任务已完成，申请次数不变  第3天已申请5次，任务已完成，且自动获得30经验值",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkrkxj32w00",
+                                    "created": 1570600980159,
+                                    "text": "新用户第一天、第二天任务均已完成，第三天完成申请6次，查看任务状态",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkrl8d9img0",
+                                            "created": 1570601003751,
+                                            "text": "显示：第1天、第2天任务已完成，申请次数不变  第3天已申请6次，任务已完成，不会再次获得经验值",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkvvoxlck80",
+                                    "created": 1570613107890,
+                                    "text": "新用户第一天、第二天任务均未完成，第三天完成申请5次，查看任务状态",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkrl8d9img0",
+                                            "created": 1570601003751,
+                                            "text": "显示：第1天、第2天任务未完成，申请次数不变  第3天已申请5次，任务已完成",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkuqfnlz6o0",
+                                    "created": 1570609874765,
+                                    "text": "新用户注册第一天查看任务解锁状态，第一天任务未完成",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkuqr9vm6g0",
+                                            "created": 1570609900056,
+                                            "text": "显示：第一天 进行中，第二、三天 待解锁",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkuqfnlz6o0",
+                                    "created": 1570609874765,
+                                    "text": "新用户注册第一天查看任务解锁状态，第一天任务已完成",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkuqr9vm6g0",
+                                            "created": 1570609900056,
+                                            "text": "显示：第一天 已完成，第二、三天 待解锁",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkuqfnlz6o0",
+                                    "created": 1570609874765,
+                                    "text": "新用户注册第二天查看任务解锁状态，第一天、第二天任务都未完成",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkuqr9vm6g0",
+                                            "created": 1570609900056,
+                                            "text": "显示：第一天 未完成，第二天进行中，第三天待解锁",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkuqfnlz6o0",
+                                    "created": 1570609874765,
+                                    "text": "新用户注册第二天查看任务解锁状态，第一天未完成、第二天已完成",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkuqr9vm6g0",
+                                            "created": 1570609900056,
+                                            "text": "显示：第一天 未完成，第二天已完成，第三天待解锁",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkuqfnlz6o0",
+                                    "created": 1570609874765,
+                                    "text": "新用户注册第三天查看任务解锁状态，三天任务都未完成",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkuqr9vm6g0",
+                                            "created": 1570609900056,
+                                            "text": "显示：第一天 未完成，第二天未完成，第三天进行中",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkuqfnlz6o0",
+                                    "created": 1570609874765,
+                                    "text": "新用户注册第四天查看任务解锁状态，三天任务都未完成",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkuqr9vm6g0",
+                                            "created": 1570609900056,
+                                            "text": "显示：第一天 未完成，第二天未完成，第三天未完成",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkvyuf6pwg0",
+                                    "created": 1570613354930,
+                                    "text": "新用户前三天未申请，第四天完成申请1次，查看任务状态",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkuqr9vm6g0",
+                                            "created": 1570609900056,
+                                            "text": "显示：第一天 未完成，第二天未完成，第三天未完成，且次数都为0，所有任务都已过时，无法继续",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bxkoc243mqo0",
+                            "created": 1570591821529,
+                            "text": "第三弹 30元必中券 可以直接兑换价值30元商品",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bxksaoydi0g0",
+                                    "created": 1570602998960,
+                                    "text": "新用户还未邀请任何好友注册，查看任务状态",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxksbj0tlt40",
+                                            "created": 1570603064412,
+                                            "text": "任务未完成，按钮显示：立即邀请",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxksbrc0bmo0",
+                                    "created": 1570603082502,
+                                    "text": "新用户注册后三天内邀请一名好友注册成功后，刷新新人大礼包页面",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxksc8gdz0g0",
+                                            "created": 1570603119772,
+                                            "text": "弹窗提示：新人大礼包 恭喜您成功邀请1位好友注册  获得30元无门槛必中券 有效期为30天",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxksdibgkog0",
+                                    "created": 1570603219606,
+                                    "text": "获得必中券弹窗页面点击按钮 查看我的必中券",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxksdqcy44g0",
+                                            "created": 1570603237111,
+                                            "text": "跳转到我的必中券页面",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxksdibgkog0",
+                                    "created": 1570603219606,
+                                    "text": "获得必中券弹窗页面点击按钮 立即兑换",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxksdqcy44g0",
+                                            "created": 1570603237111,
+                                            "text": "跳转到必中券兑换专区",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxksnpesnbk0",
+                                    "created": 1570604018687,
+                                    "text": "新用户注册后三天内已完成邀请好友注册任务，查看任务状态",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxksnz8vbmo0",
+                                            "created": 1570604040097,
+                                            "text": "任务已完成，按钮显示：继续邀请",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxksobg4jxk0",
+                                    "created": 1570604066657,
+                                    "text": "点击立即邀请按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxksog0u73c0",
+                                            "created": 1570604076616,
+                                            "text": "跳转到赚必中页面",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxksobg4jxk0",
+                                    "created": 1570604066657,
+                                    "text": "点击继续邀请按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxksog0u73c0",
+                                            "created": 1570604076616,
+                                            "text": "跳转到赚必中页面",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxksramk3dc0",
+                                    "created": 1570604299962,
+                                    "text": "新用户注册后三天内未邀请好友注册，第四天邀请好友注册成功后，刷新新人大礼包页面",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxksrxbp28g0",
+                                            "created": 1570604349371,
+                                            "text": "无弹窗，第三弹任务未完成，无法获得新人大礼包的30元无门槛必中券",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bxkocf8vods0",
+                            "created": 1570591850116,
+                            "text": "第四弹 添加个人专属微信客服",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bxkw70j88f40",
+                                    "created": 1570613995149,
+                                    "text": "点击立即添加按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkw7403omw0",
+                                            "created": 1570614002699,
+                                            "text": "跳转到进群页面",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bxkoco6036w0",
+                            "created": 1570591869533,
+                            "text": "第五弹 完成新手任务 解锁更多玩法",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bxkw7qovig00",
+                                    "created": 1570614052087,
+                                    "text": "新手任务未完成时，查看任务状态",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkw7w1gecg0",
+                                            "created": 1570614063731,
+                                            "text": "按钮显示为：立即解锁",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkw7qovig00",
+                                    "created": 1570614052087,
+                                    "text": "新手任务已完成后，查看任务状态",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkw7w1gecg0",
+                                            "created": 1570614063731,
+                                            "text": "按钮显示为：已解锁",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkw7c1s22w0",
+                                    "created": 1570614020215,
+                                    "text": "点击立即解锁按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkw7id4xb40",
+                                            "created": 1570614033962,
+                                            "text": "跳转到任务中心页面",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxkw7c1s22w0",
+                                    "created": 1570614020215,
+                                    "text": "点击已解锁按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxkw7id4xb40",
+                                            "created": 1570614033962,
+                                            "text": "跳转到任务中心页面",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43",
+    "id": "bxjzkissoy00"
+}
