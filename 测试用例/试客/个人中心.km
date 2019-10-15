@@ -2991,7 +2991,7 @@
                                     "id": "bx7a91r3new0",
                                     "created": 1569231810675,
                                     "text": "所在地区",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {

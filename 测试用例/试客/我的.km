@@ -1069,7 +1069,7 @@
                             "id": "bx3lu1h9r7c0",
                             "created": 1568858248111,
                             "text": "账户余额",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -1211,7 +1211,7 @@
                                     "id": "bx3ls6utvrs0",
                                     "created": 1568858103086,
                                     "text": "确认中的金额",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {

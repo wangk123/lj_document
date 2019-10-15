@@ -965,7 +965,7 @@
                                     "id": "2nujvnma5gum",
                                     "text": "花蜜展示图",
                                     "created": 1568172199405,
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -1877,7 +1877,7 @@
                                     "id": "52376dcduk75",
                                     "text": "下单备注",
                                     "created": 1568172199405,
-                                    "expandState": "expand"
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -2377,7 +2377,8 @@
                                         "data": {
                                             "id": "7pomlc4oq1en",
                                             "text": "关键词搜索进店",
-                                            "created": 1568172199406
+                                            "created": 1568172199406,
+                                            "expandState": "collapse"
                                         },
                                         "children": [
                                             {
