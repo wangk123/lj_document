@@ -3342,7 +3342,8 @@
                                 "data": {
                                     "id": "bx7utv5to800",
                                     "created": 1569289864174,
-                                    "text": "查看教程"
+                                    "text": "查看教程",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -3370,7 +3371,8 @@
                                 "data": {
                                     "id": "bx7utxmrzjk0",
                                     "created": 1569289869552,
-                                    "text": "截图"
+                                    "text": "截图",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -3550,7 +3552,8 @@
                                 "data": {
                                     "id": "bx7uu0evbao0",
                                     "created": 1569289875604,
-                                    "text": "性别"
+                                    "text": "性别",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -3654,7 +3657,8 @@
                                 "data": {
                                     "id": "bx7uu24360w0",
                                     "created": 1569289879306,
-                                    "text": "会员名"
+                                    "text": "会员名",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -3796,7 +3800,8 @@
                                 "data": {
                                     "id": "bx7uwg26r600",
                                     "created": 1569290066394,
-                                    "text": "提交"
+                                    "text": "提交",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -3881,7 +3886,8 @@
                                 "data": {
                                     "id": "bx7uwo5d8480",
                                     "created": 1569290084001,
-                                    "text": "引导流程"
+                                    "text": "引导流程",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -3928,7 +3934,8 @@
                                 "data": {
                                     "id": "bx7vbt6bgkg0",
                                     "created": 1569291270405,
-                                    "text": "联系客服"
+                                    "text": "联系客服",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {

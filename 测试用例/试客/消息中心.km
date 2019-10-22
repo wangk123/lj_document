@@ -3,12 +3,781 @@
         "data": {
             "id": "bxjzl561ne00",
             "created": 1570522005707,
-            "text": "中心主题"
+            "text": "消息中心"
         },
-        "children": []
+        "children": [
+            {
+                "data": {
+                    "id": "bxvtmb6oyow0",
+                    "created": 1571723889991,
+                    "text": "相关库表"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bxvtmh0jsn40",
+                    "created": 1571723902681,
+                    "text": "功能用例"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bxvujll760o0",
+                            "created": 1571726498654,
+                            "text": "开启通知提示",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bxvujo5uz340",
+                                    "created": 1571726504257,
+                                    "text": "Android 设备未开启花蜜街消息通知时查看消息通知列表",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvuklla4200",
+                                            "created": 1571726577023,
+                                            "text": "显示去开启的提示，文案：开启通知，不错过任何免费商品",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvuk3zrn3k0",
+                                    "created": 1571726538717,
+                                    "text": "IOS 设备未开启花蜜街消息通知时查看消息通知列表",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvuklla4200",
+                                            "created": 1571726577023,
+                                            "text": "显示去开启的提示，文案：开启通知，不错过任何免费商品",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvuk3zrn3k0",
+                                    "created": 1571726538717,
+                                    "text": "H5查看消息通知列表",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvuku9zwb40",
+                                            "created": 1571726595932,
+                                            "text": "无去开启的提示",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvukxw2tsw0",
+                                    "created": 1571726603797,
+                                    "text": "Android设备点击去开启按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvul39seoo0",
+                                            "created": 1571726615510,
+                                            "text": "跳转到设置开启花蜜街消息通知的界面",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvukxw2tsw0",
+                                    "created": 1571726603797,
+                                    "text": "IOS设备点击去开启按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvul39seoo0",
+                                            "created": 1571726615510,
+                                            "text": "跳转到设置开启花蜜街消息通知的界面",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvujo5uz340",
+                                    "created": 1571726504257,
+                                    "text": "Android 设备已开启花蜜街消息通知时查看消息通知列表",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvuku9zwb40",
+                                            "created": 1571726595932,
+                                            "text": "无去开启的提示",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvuk3zrn3k0",
+                                    "created": 1571726538717,
+                                    "text": "IOS 设备已开启花蜜街消息通知时查看消息通知列表",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvuku9zwb40",
+                                            "created": 1571726595932,
+                                            "text": "无去开启的提示",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bxvup8q4ghk0",
+                            "created": 1571726940838,
+                            "text": "消息内容",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bxvupbjiejk0",
+                                    "created": 1571726946969,
+                                    "text": "icon"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvus1bv6ig0",
+                                            "created": 1571727159831,
+                                            "text": "试用流程中的通知消息查看icon",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvus9maogw0",
+                                            "created": 1571727177876,
+                                            "text": "必中专区开奖提醒消息查看icon",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvusfwxna80",
+                                            "created": 1571727191580,
+                                            "text": "花蜜客服聊天信息查看icon",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvupf9ao6o0",
+                                    "created": 1571726955058,
+                                    "text": "未读提示"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvuu00qepk0",
+                                            "created": 1571727313710,
+                                            "text": "消息未读时查看icon右上角红点",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvuua07kbk0",
+                                            "created": 1571727335446,
+                                            "text": "消息已读后查看icon右上角红点",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvupd8xva80",
+                                    "created": 1571726950683,
+                                    "text": "标题"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvutszprmg0",
+                                            "created": 1571727298411,
+                                            "text": "查看通知消息标题",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvv0nt2ns80",
+                                    "created": 1571727835674,
+                                    "text": "时间"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvv0snralk0",
+                                            "created": 1571727846237,
+                                            "text": "查看当天的通知消息右上角的时间",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvv104ds9k0",
+                                                    "created": 1571727862480,
+                                                    "text": "显示：时:分",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvv0snralk0",
+                                            "created": 1571727846237,
+                                            "text": "查看非当天的通知消息右上角的时间",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvv104ds9k0",
+                                                    "created": 1571727862480,
+                                                    "text": "显示：年/月/日",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvuph5yaw00",
+                                    "created": 1571726959210,
+                                    "text": "内容"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvuun8vznc0",
+                                            "created": 1571727364269,
+                                            "text": "消息内容不足一行时查看消息内容",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvuus6ddkw0",
+                                            "created": 1571727375001,
+                                            "text": "消息内容大于一行时查看消息内容",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvuuz43oyo0",
+                                            "created": 1571727390101,
+                                            "text": "消息内容中存在特殊符号时查看消息内容",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvuv4uyad40",
+                                            "created": 1571727402608,
+                                            "text": "消息内容中存在表情时查看消息内容",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvuverz8h40",
+                                    "created": 1571727424196,
+                                    "text": "链接",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvuvt1bho80",
+                                            "created": 1571727455236,
+                                            "text": "试用流程通知消息-中奖消息，点击消息体",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvuw28bvxc0",
+                                                    "created": 1571727475251,
+                                                    "text": "跳转到待领奖分类列表",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvuvt1bho80",
+                                            "created": 1571727455236,
+                                            "text": "试用流程通知消息-领奖审核通过消息，点击消息体",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvuw28bvxc0",
+                                                    "created": 1571727475251,
+                                                    "text": "跳转到待评价分类列表",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvuvt1bho80",
+                                            "created": 1571727455236,
+                                            "text": "试用流程通知消息-预评价审核通过消息，点击消息体",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvuw28bvxc0",
+                                                    "created": 1571727475251,
+                                                    "text": "跳转到待评价分类列表",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvuvt1bho80",
+                                            "created": 1571727455236,
+                                            "text": "试用流程通知消息-评价审核通过消息，点击消息体",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvuw28bvxc0",
+                                                    "created": 1571727475251,
+                                                    "text": "跳转到已完成分类列表",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvuvt1bho80",
+                                            "created": 1571727455236,
+                                            "text": "试用流程通知消息-已返款待到账通过消息，点击消息体",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvuw28bvxc0",
+                                                    "created": 1571727475251,
+                                                    "text": "跳转到待返款分类列表",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvuvt1bho80",
+                                            "created": 1571727455236,
+                                            "text": "试用流程通知消息-待预追评通知消息，点击消息体",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvuw28bvxc0",
+                                                    "created": 1571727475251,
+                                                    "text": "跳转到待追评分类列表",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvuvt1bho80",
+                                            "created": 1571727455236,
+                                            "text": "试用流程通知消息-预追评审核通知消息，点击消息体",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvuw28bvxc0",
+                                                    "created": 1571727475251,
+                                                    "text": "跳转到待追评分类列表",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvuvt1bho80",
+                                            "created": 1571727455236,
+                                            "text": "试用流程通知消息-追评审核通知消息，点击消息体",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvuw28bvxc0",
+                                                    "created": 1571727475251,
+                                                    "text": "跳转到待追评分类列表",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvuvt1bho80",
+                                            "created": 1571727455236,
+                                            "text": "必中专区开奖提醒消息，点击消息体",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvuw28bvxc0",
+                                                    "created": 1571727475251,
+                                                    "text": "跳转到必中专区",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvv00mw0l40",
+                                            "created": 1571727785234,
+                                            "text": "客服消息，点击消息体",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvv046jops0",
+                                                    "created": 1571727792953,
+                                                    "text": "跳转到客服聊天页面",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bxvv1nu92j40",
+                            "created": 1571727914110,
+                            "text": "列表",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bxvv1x5wx0w0",
+                                    "created": 1571727934406,
+                                    "text": "消息为空时查看消息列表",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvv22ku1rs0",
+                                    "created": 1571727946192,
+                                    "text": "消息内容大于10时查看消息列表",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvvhtasrig0",
+                                            "created": 1571729179821,
+                                            "text": "只显示前10条消息",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvv643gqcg0",
+                                    "created": 1571728262952,
+                                    "text": "未给花蜜客服发过消息也没有收到花蜜客服的消息时查看消息列表",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvv6mt0ezk0",
+                                    "created": 1571728303679,
+                                    "text": "给花蜜客服发过消息时查看消息列表",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvv718gfqg0",
+                                    "created": 1571728335088,
+                                    "text": "删除花蜜客服消息后再次给客服发送时查看消息列表",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvvhrrekm80",
+                                    "created": 1571729176471,
+                                    "text": "消息条数小时10时上滑获取第二页",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvvhrrekm80",
+                                    "created": 1571729176471,
+                                    "text": "消息条数等于于10时上滑获取第二页",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvvhrrekm80",
+                                    "created": 1571729176471,
+                                    "text": "消息条数大于10时上滑获取第二页",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvviujjbls0",
+                                    "created": 1571729260890,
+                                    "text": "查看消息排序",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvvixrlojk0",
+                                            "created": 1571729267908,
+                                            "text": "按照时间倒序排列",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvvqok0j680",
+                                    "created": 1571729874772,
+                                    "text": "花蜜客服消息非排第一时，收到一条客服消息后，再次查看排序",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvvr4jtnxc0",
+                                    "created": 1571729909589,
+                                    "text": "花蜜客服消息非排第一时，给客服发送一条消息后，再次查看排序",
+                                    "usecase": 2
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bxvv2yf6e9s0",
+                            "created": 1571728015507,
+                            "text": "我的",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bxvv32fw2bs0",
+                                    "created": 1571728024257,
+                                    "text": "通知消息中存在未读消息时查看右上角消息按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvv3j4487k0",
+                                            "created": 1571728060551,
+                                            "text": "显示红点未读标记",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvv32fw2bs0",
+                                    "created": 1571728024257,
+                                    "text": "通知消息中无未读消息时查看右上角消息按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvv3j4487k0",
+                                            "created": 1571728060551,
+                                            "text": "无红点未读标记",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bxvv2zrcs9k0",
+                            "created": 1571728018420,
+                            "text": "花蜜试用",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bxvv32fw2bs0",
+                                    "created": 1571728024257,
+                                    "text": "通知消息中存在未读消息时查看右上角消息按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvv3j4487k0",
+                                            "created": 1571728060551,
+                                            "text": "显示红点未读标记",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bxvv32fw2bs0",
+                                    "created": 1571728024257,
+                                    "text": "通知消息中无未读消息时查看右上角消息按钮",
+                                    "usecase": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvv3j4487k0",
+                                            "created": 1571728060551,
+                                            "text": "无红点未读标记",
+                                            "usecase": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
-    "template": "default",
-    "theme": "fresh-blue",
+    "template": "right",
+    "theme": "fresh-blue-compat",
     "version": "1.4.43",
     "id": "bxjzl561ne00"
 }

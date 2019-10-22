@@ -608,7 +608,7 @@
                                             "id": "bwryzsiy2lk0",
                                             "created": 1567676653755,
                                             "text": "密码",
-                                            "expandState": "expand"
+                                            "expandState": "collapse"
                                         },
                                         "children": [
                                             {
@@ -674,7 +674,7 @@
                                             "id": "bwryzttv0vc0",
                                             "created": 1567676656591,
                                             "text": "登录",
-                                            "expandState": "collapse"
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
