@@ -32,255 +32,624 @@
                         "children": [
                             {
                                 "data": {
-                                    "id": "bxvoxvt81p40",
-                                    "created": 1571710691346,
-                                    "text": "无任何订单记录时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvoyn097hc0",
-                                    "created": 1571710750544,
-                                    "text": "存在待提交申请的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvozhlwa8g0",
-                                    "created": 1571710817156,
-                                    "text": "存在等待开奖的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvp327vzuw0",
-                                    "created": 1571711097114,
-                                    "text": "存在等待领奖的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvp38bknhs0",
-                                    "created": 1571711110397,
-                                    "text": "存在已领奖待审核的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvp4bbrp200",
-                                    "created": 1571711195304,
-                                    "text": "存在没有中奖的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvp6j9hn200",
-                                    "created": 1571711369309,
-                                    "text": "存在商家审核通过待提交预试用报告的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvp6st95q80",
-                                    "created": 1571711390095,
-                                    "text": "存在已提交预试用报告待商家审核的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvp73ge7hs0",
-                                    "created": 1571711413262,
-                                    "text": "存在预试用报告已审核通过待提交评价截图的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvp7lrt2b40",
-                                    "created": 1571711453134,
-                                    "text": "存在已提交评价截图待商家审核的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvp7ta3dug0",
-                                    "created": 1571711469477,
-                                    "text": "存在已完成试用待返款的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvpamm3xeg0",
-                                    "created": 1571711690059,
-                                    "text": "存在已完成试用且已返款成功的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvpauiwlg80",
-                                    "created": 1571711707280,
-                                    "text": "存在等待预追评的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvpb2aw1eo0",
-                                    "created": 1571711724209,
-                                    "text": "存在已提交预追评等待商家审核的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvpbaubtew0",
-                                    "created": 1571711742798,
-                                    "text": "存在预追评已审核通过等待提交追评截图的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvpblykmog0",
-                                    "created": 1571711767000,
-                                    "text": "存在已提交追评截图等待商家审核通过的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvpcw0aw340",
-                                    "created": 1571711867236,
-                                    "text": "存在超时未领奖的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvpdlxwjjk0",
-                                    "created": 1571711923688,
-                                    "text": "存在放弃开奖的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvpdrkxswg0",
-                                    "created": 1571711935964,
-                                    "text": "存在已删除的超时未领奖订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvpdy2m05s0",
-                                    "created": 1571711950094,
-                                    "text": "存在已删除的放弃开奖的订单时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvpgbbdf0g0",
-                                    "created": 1571712135650,
-                                    "text": "所有订单数量大于10条时查看全部分类",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvpghnbpog0",
-                                    "created": 1571712149433,
-                                    "text": "订单数量大于10时上滑查看第二页订单",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvpp5epbjs0",
-                                    "created": 1571712828068,
-                                    "text": "订单数量小于10时上滑查看第二页订单",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvppb5vbc80",
-                                    "created": 1571712840595,
-                                    "text": "订单数量等于10时上滑查看第二页订单",
-                                    "usecase": 2
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "bxvpi52d3600",
-                                    "created": 1571712278773,
-                                    "text": "查看订单排序方式",
-                                    "usecase": 2
+                                    "id": "bxv3ghg2n3c0",
+                                    "created": 1571650084577,
+                                    "text": "订单属性",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "bxvpifnjpfs0",
-                                            "created": 1571712301821,
-                                            "text": "按订单最后更新时间倒序排列",
-                                            "usecase": 3
+                                            "id": "bxv0ado478g0",
+                                            "created": 1571641142841,
+                                            "text": "时间",
+                                            "expandState": "collapse"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxv0xy2h0q80",
+                                                    "created": 1571642989621,
+                                                    "text": "只有一次开奖时，查看时间",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bxv0y0hqoi00",
+                                                            "created": 1571642994898,
+                                                            "text": "开奖时间",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bxv0xy2h0q80",
+                                                    "created": 1571642989621,
+                                                    "text": "多次开奖时，查看时间",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bxv0y0hqoi00",
+                                                            "created": 1571642994898,
+                                                            "text": "最后一次开奖时间",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxv0af11b4w0",
+                                            "created": 1571641145799,
+                                            "text": "订单状态",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxv0cqvfnf40",
+                                                    "created": 1571641328310,
+                                                    "text": "查看订单状态",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bxv0csrvk400",
+                                                            "created": 1571641332449,
+                                                            "text": "没有中奖",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxv0agqm5co0",
+                                            "created": 1571641149523,
+                                            "text": "商品图片",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bwv5ye409fs0",
+                                                    "created": 1568000971652,
+                                                    "text": "jpg格式图片显示正常",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwv5ynl2w600",
+                                                    "created": 1568000992275,
+                                                    "text": "jpeg格式图片显示正常 ",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwv5yrz1dc80",
+                                                    "created": 1568001001826,
+                                                    "text": "png格式图片显示正常",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwv60l6ope80",
+                                                    "created": 1568001143779,
+                                                    "text": "尺寸大于800X800的图片",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bwv60l6ope80",
+                                                    "created": 1568001143779,
+                                                    "text": "尺寸小于？？？的图片",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxv0aiojpqo0",
+                                            "created": 1571641153751,
+                                            "text": "商品名称",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxv0cy9ufew0",
+                                                    "created": 1571641344419,
+                                                    "text": "商品名称长度为1个字符时查看商品名称",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bxv0djiptm80",
+                                                    "created": 1571641390668,
+                                                    "text": "商品名称长度为20个字符时查看商品名称 ",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bxv0dqy3ebc0",
+                                                    "created": 1571641406835,
+                                                    "text": "商品名称中包含表情时查看商品名称",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bxv0e0t32m00",
+                                                    "created": 1571641428300,
+                                                    "text": "商品名称中包含特殊字符时查看商品名称",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxv0aldw2800",
+                                            "created": 1571641159637,
+                                            "text": "商品价格",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxlnv9n3jug0",
+                                                    "created": 1570692065681,
+                                                    "text": "查看商品价格",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bwv8md95ngo0",
+                                                            "created": 1568008492746,
+                                                            "text": "显示商品实际价格，保留两位小数，示例：￥199.00",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxv0anmrqcg0",
+                                            "created": 1571641164528,
+                                            "text": "规格",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxlr71iy6q00",
+                                                    "created": 1570701451717,
+                                                    "text": "商品设置规格为随意拍时，查看规格",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bxlr7cr2vsw0",
+                                                    "created": 1570701476152,
+                                                    "text": "商品设置规格为1个sku时，查看规格",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bxlr8szwf9s0",
+                                                    "created": 1570701589878,
+                                                    "text": "商品设置规格大于1个sku时，查看规格",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bxlr9igl9b40",
+                                                    "created": 1570701645307,
+                                                    "text": "商品设置规格为自定义时，查看规格",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bxlr9igl9b40",
+                                                    "created": 1570701645307,
+                                                    "text": "商品设置规格为自定义，内容超长时查看规格",
+                                                    "usecase": 2
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxv0aq9umdc0",
+                                            "created": 1571641170277,
+                                            "text": "数量",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxlnusmhl1c0",
+                                                    "created": 1570692028639,
+                                                    "text": "查看数量",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bxlnuws01s00",
+                                                            "created": 1570692037680,
+                                                            "text": "1件，每次只能申请1件",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxv31139gdk0",
+                                            "created": 1571648873511,
+                                            "text": "提示信息",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxv312a0psg0",
+                                                    "created": 1571648876097,
+                                                    "text": "查看提示信息",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bxv315li6ps0",
+                                                            "created": 1571648883321,
+                                                            "text": "提示：每申请满5次当日就可提升10%的中奖率哦",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxv44d05mfk0",
+                                            "created": 1571651955647,
+                                            "text": "去申请按钮",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxv44ehq64g0",
+                                                    "created": 1571651958886,
+                                                    "text": "点击去申请按钮",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bxv44i977yo0",
+                                                            "created": 1571651967078,
+                                                            "text": "跳转到商品列表页面",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     }
                                 ]
                             },
                             {
                                 "data": {
-                                    "id": "bxvpq9ni78o0",
-                                    "created": 1571712915672,
-                                    "text": "订单数量大于10时，查看前20条订单排序方式",
-                                    "usecase": 2
+                                    "id": "bxvxx1zupls0",
+                                    "created": 1571736016432,
+                                    "text": "分页",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "bxvpifnjpfs0",
-                                            "created": 1571712301821,
-                                            "text": "按订单最后更新时间倒序排列",
-                                            "usecase": 3
+                                            "id": "bxvoxvt81p40",
+                                            "created": 1571710691346,
+                                            "text": "无任何订单记录时查看全部分类",
+                                            "usecase": 2
                                         },
                                         "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvoyn097hc0",
+                                            "created": 1571710750544,
+                                            "text": "存在待提交申请的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvozhlwa8g0",
+                                            "created": 1571710817156,
+                                            "text": "存在等待开奖的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp327vzuw0",
+                                            "created": 1571711097114,
+                                            "text": "存在等待领奖的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp38bknhs0",
+                                            "created": 1571711110397,
+                                            "text": "存在已领奖待审核的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp4bbrp200",
+                                            "created": 1571711195304,
+                                            "text": "存在没有中奖的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6j9hn200",
+                                            "created": 1571711369309,
+                                            "text": "存在商家审核通过待提交预试用报告的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6st95q80",
+                                            "created": 1571711390095,
+                                            "text": "存在已提交预试用报告待商家审核的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp73ge7hs0",
+                                            "created": 1571711413262,
+                                            "text": "存在预试用报告已审核通过待提交评价截图的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7lrt2b40",
+                                            "created": 1571711453134,
+                                            "text": "存在已提交评价截图待商家审核的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7ta3dug0",
+                                            "created": 1571711469477,
+                                            "text": "存在已完成试用待返款的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpamm3xeg0",
+                                            "created": 1571711690059,
+                                            "text": "存在已完成试用且已返款成功的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpauiwlg80",
+                                            "created": 1571711707280,
+                                            "text": "存在等待预追评的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpb2aw1eo0",
+                                            "created": 1571711724209,
+                                            "text": "存在已提交预追评等待商家审核的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpbaubtew0",
+                                            "created": 1571711742798,
+                                            "text": "存在预追评已审核通过等待提交追评截图的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpblykmog0",
+                                            "created": 1571711767000,
+                                            "text": "存在已提交追评截图等待商家审核通过的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpcw0aw340",
+                                            "created": 1571711867236,
+                                            "text": "存在超时未领奖的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdlxwjjk0",
+                                            "created": 1571711923688,
+                                            "text": "存在放弃开奖的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdrkxswg0",
+                                            "created": 1571711935964,
+                                            "text": "存在已删除的超时未领奖订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdy2m05s0",
+                                            "created": 1571711950094,
+                                            "text": "存在已删除的放弃开奖的订单时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpgbbdf0g0",
+                                            "created": 1571712135650,
+                                            "text": "所有订单数量大于10条时查看全部分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpghnbpog0",
+                                            "created": 1571712149433,
+                                            "text": "订单数量大于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpp5epbjs0",
+                                            "created": 1571712828068,
+                                            "text": "订单数量小于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvppb5vbc80",
+                                            "created": 1571712840595,
+                                            "text": "订单数量等于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpi52d3600",
+                                            "created": 1571712278773,
+                                            "text": "查看订单排序方式",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpq9ni78o0",
+                                            "created": 1571712915672,
+                                            "text": "订单数量大于10时，查看前20条订单排序方式",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -290,7 +659,7 @@
                         "data": {
                             "id": "bxuz8288s800",
                             "created": 1571638140099,
-                            "text": "待提交申请",
+                            "text": "待申请",
                             "expandState": "collapse"
                         },
                         "children": [
@@ -676,9 +1045,265 @@
                                 "data": {
                                     "id": "bxv0b5e49v40",
                                     "created": 1571641203187,
-                                    "text": "分页"
+                                    "text": "分页",
+                                    "expandState": "collapse"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvoxvt81p40",
+                                            "created": 1571710691346,
+                                            "text": "无任何订单记录时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvoyn097hc0",
+                                            "created": 1571710750544,
+                                            "text": "存在待提交申请的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvozhlwa8g0",
+                                            "created": 1571710817156,
+                                            "text": "存在等待开奖的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp327vzuw0",
+                                            "created": 1571711097114,
+                                            "text": "存在等待领奖的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp38bknhs0",
+                                            "created": 1571711110397,
+                                            "text": "存在已领奖待审核的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp4bbrp200",
+                                            "created": 1571711195304,
+                                            "text": "存在没有中奖的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6j9hn200",
+                                            "created": 1571711369309,
+                                            "text": "存在商家审核通过待提交预试用报告的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6st95q80",
+                                            "created": 1571711390095,
+                                            "text": "存在已提交预试用报告待商家审核的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp73ge7hs0",
+                                            "created": 1571711413262,
+                                            "text": "存在预试用报告已审核通过待提交评价截图的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7lrt2b40",
+                                            "created": 1571711453134,
+                                            "text": "存在已提交评价截图待商家审核的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7ta3dug0",
+                                            "created": 1571711469477,
+                                            "text": "存在已完成试用待返款的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpamm3xeg0",
+                                            "created": 1571711690059,
+                                            "text": "存在已完成试用且已返款成功的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpb2aw1eo0",
+                                            "created": 1571711724209,
+                                            "text": "存在已提交预追评等待商家审核的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpbaubtew0",
+                                            "created": 1571711742798,
+                                            "text": "存在预追评已审核通过等待提交追评截图的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpblykmog0",
+                                            "created": 1571711767000,
+                                            "text": "存在已提交追评截图等待商家审核通过的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpauiwlg80",
+                                            "created": 1571711707280,
+                                            "text": "存在等待预追评的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpcw0aw340",
+                                            "created": 1571711867236,
+                                            "text": "存在超时未领奖的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdlxwjjk0",
+                                            "created": 1571711923688,
+                                            "text": "存在放弃开奖的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdrkxswg0",
+                                            "created": 1571711935964,
+                                            "text": "存在已删除的超时未领奖订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdy2m05s0",
+                                            "created": 1571711950094,
+                                            "text": "存在已删除的放弃开奖的订单时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpi52d3600",
+                                            "created": 1571712278773,
+                                            "text": "查看订单排序方式",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpgbbdf0g0",
+                                            "created": 1571712135650,
+                                            "text": "所有订单数量大于10条时查看待申请分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpghnbpog0",
+                                            "created": 1571712149433,
+                                            "text": "订单数量大于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpp5epbjs0",
+                                            "created": 1571712828068,
+                                            "text": "订单数量小于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvppb5vbc80",
+                                            "created": 1571712840595,
+                                            "text": "订单数量等于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpq9ni78o0",
+                                            "created": 1571712915672,
+                                            "text": "订单数量大于10时，查看前20条订单排序方式",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -1016,7 +1641,262 @@
                                     "created": 1571644105994,
                                     "text": "分页"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvoxvt81p40",
+                                            "created": 1571710691346,
+                                            "text": "无任何订单记录时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvoyn097hc0",
+                                            "created": 1571710750544,
+                                            "text": "存在待提交申请的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvozhlwa8g0",
+                                            "created": 1571710817156,
+                                            "text": "存在等待开奖的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp327vzuw0",
+                                            "created": 1571711097114,
+                                            "text": "存在等待领奖的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp38bknhs0",
+                                            "created": 1571711110397,
+                                            "text": "存在已领奖待审核的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp4bbrp200",
+                                            "created": 1571711195304,
+                                            "text": "存在没有中奖的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6j9hn200",
+                                            "created": 1571711369309,
+                                            "text": "存在商家审核通过待提交预试用报告的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6st95q80",
+                                            "created": 1571711390095,
+                                            "text": "存在已提交预试用报告待商家审核的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp73ge7hs0",
+                                            "created": 1571711413262,
+                                            "text": "存在预试用报告已审核通过待提交评价截图的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7lrt2b40",
+                                            "created": 1571711453134,
+                                            "text": "存在已提交评价截图待商家审核的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7ta3dug0",
+                                            "created": 1571711469477,
+                                            "text": "存在已完成试用待返款的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpamm3xeg0",
+                                            "created": 1571711690059,
+                                            "text": "存在已完成试用且已返款成功的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpbaubtew0",
+                                            "created": 1571711742798,
+                                            "text": "存在预追评已审核通过等待提交追评截图的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpblykmog0",
+                                            "created": 1571711767000,
+                                            "text": "存在已提交追评截图等待商家审核通过的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpauiwlg80",
+                                            "created": 1571711707280,
+                                            "text": "存在等待预追评的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpcw0aw340",
+                                            "created": 1571711867236,
+                                            "text": "存在超时未领奖的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdlxwjjk0",
+                                            "created": 1571711923688,
+                                            "text": "存在放弃开奖的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdrkxswg0",
+                                            "created": 1571711935964,
+                                            "text": "存在已删除的超时未领奖订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdy2m05s0",
+                                            "created": 1571711950094,
+                                            "text": "存在已删除的放弃开奖的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpi52d3600",
+                                            "created": 1571712278773,
+                                            "text": "查看订单排序方式",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpgbbdf0g0",
+                                            "created": 1571712135650,
+                                            "text": "所有订单数量大于10条时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpghnbpog0",
+                                            "created": 1571712149433,
+                                            "text": "订单数量大于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvppb5vbc80",
+                                            "created": 1571712840595,
+                                            "text": "订单数量等于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpp5epbjs0",
+                                            "created": 1571712828068,
+                                            "text": "订单数量小于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpq9ni78o0",
+                                            "created": 1571712915672,
+                                            "text": "订单数量大于10时，查看前20条订单排序方式",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpb2aw1eo0",
+                                            "created": 1571711724209,
+                                            "text": "存在已提交预追评等待商家审核的订单时查看待开奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -1846,7 +2726,262 @@
                                     "created": 1571646457184,
                                     "text": "分页"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvoxvt81p40",
+                                            "created": 1571710691346,
+                                            "text": "无任何订单记录时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvoyn097hc0",
+                                            "created": 1571710750544,
+                                            "text": "存在待提交申请的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvozhlwa8g0",
+                                            "created": 1571710817156,
+                                            "text": "存在等待开奖的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp327vzuw0",
+                                            "created": 1571711097114,
+                                            "text": "存在等待领奖的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp38bknhs0",
+                                            "created": 1571711110397,
+                                            "text": "存在已领奖待审核的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp4bbrp200",
+                                            "created": 1571711195304,
+                                            "text": "存在没有中奖的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6j9hn200",
+                                            "created": 1571711369309,
+                                            "text": "存在商家审核通过待提交预试用报告的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6st95q80",
+                                            "created": 1571711390095,
+                                            "text": "存在已提交预试用报告待商家审核的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp73ge7hs0",
+                                            "created": 1571711413262,
+                                            "text": "存在预试用报告已审核通过待提交评价截图的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7lrt2b40",
+                                            "created": 1571711453134,
+                                            "text": "存在已提交评价截图待商家审核的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7ta3dug0",
+                                            "created": 1571711469477,
+                                            "text": "存在已完成试用待返款的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpamm3xeg0",
+                                            "created": 1571711690059,
+                                            "text": "存在已完成试用且已返款成功的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvppb5vbc80",
+                                            "created": 1571712840595,
+                                            "text": "订单数量等于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpbaubtew0",
+                                            "created": 1571711742798,
+                                            "text": "存在预追评已审核通过等待提交追评截图的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpblykmog0",
+                                            "created": 1571711767000,
+                                            "text": "存在已提交追评截图等待商家审核通过的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpauiwlg80",
+                                            "created": 1571711707280,
+                                            "text": "存在等待预追评的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpcw0aw340",
+                                            "created": 1571711867236,
+                                            "text": "存在超时未领奖的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdlxwjjk0",
+                                            "created": 1571711923688,
+                                            "text": "存在放弃开奖的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdrkxswg0",
+                                            "created": 1571711935964,
+                                            "text": "存在已删除的超时未领奖订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdy2m05s0",
+                                            "created": 1571711950094,
+                                            "text": "存在已删除的放弃开奖的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpi52d3600",
+                                            "created": 1571712278773,
+                                            "text": "查看订单排序方式",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpgbbdf0g0",
+                                            "created": 1571712135650,
+                                            "text": "所有订单数量大于10条时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpghnbpog0",
+                                            "created": 1571712149433,
+                                            "text": "订单数量大于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpp5epbjs0",
+                                            "created": 1571712828068,
+                                            "text": "订单数量小于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpq9ni78o0",
+                                            "created": 1571712915672,
+                                            "text": "订单数量大于10时，查看前20条订单排序方式",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpb2aw1eo0",
+                                            "created": 1571711724209,
+                                            "text": "存在已提交预追评等待商家审核的订单时查看待领奖分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -1863,7 +2998,7 @@
                                     "id": "bxv3jft9onc0",
                                     "created": 1571650316114,
                                     "text": "订单属性",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -2552,7 +3687,262 @@
                                     "created": 1571650321866,
                                     "text": "分页"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvoxvt81p40",
+                                            "created": 1571710691346,
+                                            "text": "无任何订单记录时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvoyn097hc0",
+                                            "created": 1571710750544,
+                                            "text": "存在待提交申请的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvozhlwa8g0",
+                                            "created": 1571710817156,
+                                            "text": "存在等待开奖的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp327vzuw0",
+                                            "created": 1571711097114,
+                                            "text": "存在等待追评的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp38bknhs0",
+                                            "created": 1571711110397,
+                                            "text": "存在已领奖待审核的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp4bbrp200",
+                                            "created": 1571711195304,
+                                            "text": "存在没有中奖的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6j9hn200",
+                                            "created": 1571711369309,
+                                            "text": "存在商家审核通过待提交预试用报告的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6st95q80",
+                                            "created": 1571711390095,
+                                            "text": "存在已提交预试用报告待商家审核的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp73ge7hs0",
+                                            "created": 1571711413262,
+                                            "text": "存在预试用报告已审核通过待提交评价截图的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7lrt2b40",
+                                            "created": 1571711453134,
+                                            "text": "存在已提交评价截图待商家审核的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7ta3dug0",
+                                            "created": 1571711469477,
+                                            "text": "存在已完成试用待返款的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpamm3xeg0",
+                                            "created": 1571711690059,
+                                            "text": "存在已完成试用且已返款成功的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvppb5vbc80",
+                                            "created": 1571712840595,
+                                            "text": "订单数量等于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpbaubtew0",
+                                            "created": 1571711742798,
+                                            "text": "存在预追评已审核通过等待提交追评截图的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpblykmog0",
+                                            "created": 1571711767000,
+                                            "text": "存在已提交追评截图等待商家审核通过的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpauiwlg80",
+                                            "created": 1571711707280,
+                                            "text": "存在等待预追评的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpcw0aw340",
+                                            "created": 1571711867236,
+                                            "text": "存在超时未领奖的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdlxwjjk0",
+                                            "created": 1571711923688,
+                                            "text": "存在放弃开奖的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdrkxswg0",
+                                            "created": 1571711935964,
+                                            "text": "存在已删除的超时未领奖订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdy2m05s0",
+                                            "created": 1571711950094,
+                                            "text": "存在已删除的放弃开奖的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpi52d3600",
+                                            "created": 1571712278773,
+                                            "text": "查看订单排序方式",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpgbbdf0g0",
+                                            "created": 1571712135650,
+                                            "text": "所有订单数量大于10条时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpghnbpog0",
+                                            "created": 1571712149433,
+                                            "text": "订单数量大于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpp5epbjs0",
+                                            "created": 1571712828068,
+                                            "text": "订单数量小于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpq9ni78o0",
+                                            "created": 1571712915672,
+                                            "text": "订单数量大于10时，查看前20条订单排序方式",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpb2aw1eo0",
+                                            "created": 1571711724209,
+                                            "text": "存在已提交预追评等待商家审核的订单时查看已取消分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -4115,9 +5505,265 @@
                                 "data": {
                                     "id": "bxv2eztd8i80",
                                     "created": 1571647146724,
-                                    "text": "分页"
+                                    "text": "分页",
+                                    "expandState": "collapse"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvoxvt81p40",
+                                            "created": 1571710691346,
+                                            "text": "无任何订单记录时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvoyn097hc0",
+                                            "created": 1571710750544,
+                                            "text": "存在待提交申请的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvozhlwa8g0",
+                                            "created": 1571710817156,
+                                            "text": "存在等待开奖的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp327vzuw0",
+                                            "created": 1571711097114,
+                                            "text": "存在等待评价的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp38bknhs0",
+                                            "created": 1571711110397,
+                                            "text": "存在已领奖待审核的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp4bbrp200",
+                                            "created": 1571711195304,
+                                            "text": "存在没有中奖的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6j9hn200",
+                                            "created": 1571711369309,
+                                            "text": "存在商家审核通过待提交预试用报告的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6st95q80",
+                                            "created": 1571711390095,
+                                            "text": "存在已提交预试用报告待商家审核的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp73ge7hs0",
+                                            "created": 1571711413262,
+                                            "text": "存在预试用报告已审核通过待提交评价截图的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7lrt2b40",
+                                            "created": 1571711453134,
+                                            "text": "存在已提交评价截图待商家审核的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7ta3dug0",
+                                            "created": 1571711469477,
+                                            "text": "存在已完成试用待返款的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpamm3xeg0",
+                                            "created": 1571711690059,
+                                            "text": "存在已完成试用且已返款成功的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvppb5vbc80",
+                                            "created": 1571712840595,
+                                            "text": "订单数量等于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpbaubtew0",
+                                            "created": 1571711742798,
+                                            "text": "存在预追评已审核通过等待提交追评截图的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpblykmog0",
+                                            "created": 1571711767000,
+                                            "text": "存在已提交追评截图等待商家审核通过的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpauiwlg80",
+                                            "created": 1571711707280,
+                                            "text": "存在等待预追评的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpcw0aw340",
+                                            "created": 1571711867236,
+                                            "text": "存在超时未领奖的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdlxwjjk0",
+                                            "created": 1571711923688,
+                                            "text": "存在放弃开奖的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdrkxswg0",
+                                            "created": 1571711935964,
+                                            "text": "存在已删除的超时未领奖订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdy2m05s0",
+                                            "created": 1571711950094,
+                                            "text": "存在已删除的放弃开奖的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpi52d3600",
+                                            "created": 1571712278773,
+                                            "text": "查看订单排序方式",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpgbbdf0g0",
+                                            "created": 1571712135650,
+                                            "text": "所有订单数量大于10条时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpghnbpog0",
+                                            "created": 1571712149433,
+                                            "text": "订单数量大于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpp5epbjs0",
+                                            "created": 1571712828068,
+                                            "text": "订单数量小于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpq9ni78o0",
+                                            "created": 1571712915672,
+                                            "text": "订单数量大于10时，查看前20条订单排序方式",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpb2aw1eo0",
+                                            "created": 1571711724209,
+                                            "text": "存在已提交预追评等待商家审核的订单时查看待评价分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -4444,9 +6090,265 @@
                                 "data": {
                                     "id": "bxv3gkubb4w0",
                                     "created": 1571650091968,
-                                    "text": "分页"
+                                    "text": "分页",
+                                    "expandState": "collapse"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvoxvt81p40",
+                                            "created": 1571710691346,
+                                            "text": "无任何订单记录时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvoyn097hc0",
+                                            "created": 1571710750544,
+                                            "text": "存在待提交申请的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvozhlwa8g0",
+                                            "created": 1571710817156,
+                                            "text": "存在等待开奖的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp327vzuw0",
+                                            "created": 1571711097114,
+                                            "text": "存在等待返款的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp38bknhs0",
+                                            "created": 1571711110397,
+                                            "text": "存在已领奖待审核的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp4bbrp200",
+                                            "created": 1571711195304,
+                                            "text": "存在没有中奖的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6j9hn200",
+                                            "created": 1571711369309,
+                                            "text": "存在商家审核通过待提交预试用报告的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6st95q80",
+                                            "created": 1571711390095,
+                                            "text": "存在已提交预试用报告待商家审核的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp73ge7hs0",
+                                            "created": 1571711413262,
+                                            "text": "存在预试用报告已审核通过待提交评价截图的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7lrt2b40",
+                                            "created": 1571711453134,
+                                            "text": "存在已提交评价截图待商家审核的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7ta3dug0",
+                                            "created": 1571711469477,
+                                            "text": "存在已完成试用待返款的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpamm3xeg0",
+                                            "created": 1571711690059,
+                                            "text": "存在已完成试用且已返款成功的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvppb5vbc80",
+                                            "created": 1571712840595,
+                                            "text": "订单数量等于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpbaubtew0",
+                                            "created": 1571711742798,
+                                            "text": "存在预追评已审核通过等待提交追评截图的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpblykmog0",
+                                            "created": 1571711767000,
+                                            "text": "存在已提交追评截图等待商家审核通过的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpauiwlg80",
+                                            "created": 1571711707280,
+                                            "text": "存在等待预追评的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpcw0aw340",
+                                            "created": 1571711867236,
+                                            "text": "存在超时未领奖的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdlxwjjk0",
+                                            "created": 1571711923688,
+                                            "text": "存在放弃开奖的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdrkxswg0",
+                                            "created": 1571711935964,
+                                            "text": "存在已删除的超时未领奖订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdy2m05s0",
+                                            "created": 1571711950094,
+                                            "text": "存在已删除的放弃开奖的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpi52d3600",
+                                            "created": 1571712278773,
+                                            "text": "查看订单排序方式",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpgbbdf0g0",
+                                            "created": 1571712135650,
+                                            "text": "所有订单数量大于10条时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpghnbpog0",
+                                            "created": 1571712149433,
+                                            "text": "订单数量大于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpp5epbjs0",
+                                            "created": 1571712828068,
+                                            "text": "订单数量小于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpq9ni78o0",
+                                            "created": 1571712915672,
+                                            "text": "订单数量大于10时，查看前20条订单排序方式",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpb2aw1eo0",
+                                            "created": 1571711724209,
+                                            "text": "存在已提交预追评等待商家审核的订单时查看待返款分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -5895,7 +7797,262 @@
                                     "created": 1571650091968,
                                     "text": "分页"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bxvoxvt81p40",
+                                            "created": 1571710691346,
+                                            "text": "无任何订单记录时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvoyn097hc0",
+                                            "created": 1571710750544,
+                                            "text": "存在待提交申请的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvozhlwa8g0",
+                                            "created": 1571710817156,
+                                            "text": "存在等待开奖的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp327vzuw0",
+                                            "created": 1571711097114,
+                                            "text": "存在等待追评的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp38bknhs0",
+                                            "created": 1571711110397,
+                                            "text": "存在已领奖待审核的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp4bbrp200",
+                                            "created": 1571711195304,
+                                            "text": "存在没有中奖的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6j9hn200",
+                                            "created": 1571711369309,
+                                            "text": "存在商家审核通过待提交预试用报告的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6st95q80",
+                                            "created": 1571711390095,
+                                            "text": "存在已提交预试用报告待商家审核的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp73ge7hs0",
+                                            "created": 1571711413262,
+                                            "text": "存在预试用报告已审核通过待提交评价截图的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7lrt2b40",
+                                            "created": 1571711453134,
+                                            "text": "存在已提交评价截图待商家审核的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7ta3dug0",
+                                            "created": 1571711469477,
+                                            "text": "存在已完成试用待返款的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpamm3xeg0",
+                                            "created": 1571711690059,
+                                            "text": "存在已完成试用且已返款成功的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvppb5vbc80",
+                                            "created": 1571712840595,
+                                            "text": "订单数量等于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpbaubtew0",
+                                            "created": 1571711742798,
+                                            "text": "存在预追评已审核通过等待提交追评截图的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpblykmog0",
+                                            "created": 1571711767000,
+                                            "text": "存在已提交追评截图等待商家审核通过的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpauiwlg80",
+                                            "created": 1571711707280,
+                                            "text": "存在等待预追评的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpb2aw1eo0",
+                                            "created": 1571711724209,
+                                            "text": "存在已提交预追评等待商家审核的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpcw0aw340",
+                                            "created": 1571711867236,
+                                            "text": "存在超时未领奖的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdlxwjjk0",
+                                            "created": 1571711923688,
+                                            "text": "存在放弃开奖的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdrkxswg0",
+                                            "created": 1571711935964,
+                                            "text": "存在已删除的超时未领奖订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdy2m05s0",
+                                            "created": 1571711950094,
+                                            "text": "存在已删除的放弃开奖的订单时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpi52d3600",
+                                            "created": 1571712278773,
+                                            "text": "查看订单排序方式",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpgbbdf0g0",
+                                            "created": 1571712135650,
+                                            "text": "所有订单数量大于10条时查看待追评分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpghnbpog0",
+                                            "created": 1571712149433,
+                                            "text": "订单数量大于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpp5epbjs0",
+                                            "created": 1571712828068,
+                                            "text": "订单数量小于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpq9ni78o0",
+                                            "created": 1571712915672,
+                                            "text": "订单数量大于10时，查看前20条订单排序方式",
+                                            "usecase": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -6215,6 +8372,111 @@
                                                 ]
                                             }
                                         ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvxy8x7sq00",
+                                            "created": 1571736109875,
+                                            "text": "领取红包按钮",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bxvxyb2f41k0",
+                                                    "created": 1571736114543,
+                                                    "text": "商品无红包时查看领取红包按钮",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bxvxznqhk8o0",
+                                                            "created": 1571736220484,
+                                                            "text": "无领取红包按钮",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bxvxykp0bhc0",
+                                                    "created": 1571736135500,
+                                                    "text": "商品有红包时查看领取红包按钮",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bxvxzkx4txc0",
+                                                            "created": 1571736214355,
+                                                            "text": "显示领取红包按钮",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bxvxyq7mgdk0",
+                                                    "created": 1571736147509,
+                                                    "text": "点击领取红包按钮",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bxvxzggye6w0",
+                                                            "created": 1571736204670,
+                                                            "text": "弹窗领取红包弹窗",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bxvxyt4bq080",
+                                                    "created": 1571736153840,
+                                                    "text": "已领取红包后查看领取红包按钮",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bxvxzb61v9c0",
+                                                            "created": 1571736193126,
+                                                            "text": "显示已领红包按钮",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bxvxzqxorig0",
+                                                    "created": 1571736227449,
+                                                    "text": "点击已领红包按钮",
+                                                    "usecase": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bxvxzuaneao0",
+                                                            "created": 1571736234763,
+                                                            "text": "提示：您已经领过这个红包了",
+                                                            "usecase": 3
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     }
                                 ]
                             },
@@ -6222,285 +8484,204 @@
                                 "data": {
                                     "id": "bxv3gkubb4w0",
                                     "created": 1571650091968,
-                                    "text": "分页"
-                                },
-                                "children": []
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "bxuz8m6mg2w0",
-                            "created": 1571638183536,
-                            "text": "已结束",
-                            "expandState": "collapse"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "bxv3ghg2n3c0",
-                                    "created": 1571650084577,
-                                    "text": "订单属性",
-                                    "expandState": "expand"
+                                    "text": "分页",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "bxv0ado478g0",
-                                            "created": 1571641142841,
-                                            "text": "时间",
-                                            "expandState": "collapse"
+                                            "id": "bxvoxvt81p40",
+                                            "created": 1571710691346,
+                                            "text": "无任何订单记录时查看已完成分类",
+                                            "usecase": 2
                                         },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "bxv0xy2h0q80",
-                                                    "created": 1571642989621,
-                                                    "text": "只有一次开奖时，查看时间",
-                                                    "usecase": 2
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "bxv0y0hqoi00",
-                                                            "created": 1571642994898,
-                                                            "text": "开奖时间",
-                                                            "usecase": 3
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "bxv0xy2h0q80",
-                                                    "created": 1571642989621,
-                                                    "text": "多次开奖时，查看时间",
-                                                    "usecase": 2
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "bxv0y0hqoi00",
-                                                            "created": 1571642994898,
-                                                            "text": "最后一次开奖时间",
-                                                            "usecase": 3
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            }
-                                        ]
+                                        "children": []
                                     },
                                     {
                                         "data": {
-                                            "id": "bxv0af11b4w0",
-                                            "created": 1571641145799,
-                                            "text": "订单状态",
-                                            "expandState": "collapse"
+                                            "id": "bxvoyn097hc0",
+                                            "created": 1571710750544,
+                                            "text": "存在待提交申请的订单时查看已完成分类",
+                                            "usecase": 2
                                         },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "bxv0cqvfnf40",
-                                                    "created": 1571641328310,
-                                                    "text": "查看订单状态",
-                                                    "usecase": 2
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "bxv0csrvk400",
-                                                            "created": 1571641332449,
-                                                            "text": "没有中奖",
-                                                            "usecase": 3
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            }
-                                        ]
+                                        "children": []
                                     },
                                     {
                                         "data": {
-                                            "id": "bxv0agqm5co0",
-                                            "created": 1571641149523,
-                                            "text": "商品图片",
-                                            "expandState": "collapse"
+                                            "id": "bxvozhlwa8g0",
+                                            "created": 1571710817156,
+                                            "text": "存在等待开奖的订单时查看已完成分类",
+                                            "usecase": 2
                                         },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "bwv5ye409fs0",
-                                                    "created": 1568000971652,
-                                                    "text": "jpg格式图片显示正常",
-                                                    "usecase": 2
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "bwv5ynl2w600",
-                                                    "created": 1568000992275,
-                                                    "text": "jpeg格式图片显示正常 ",
-                                                    "usecase": 2
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "bwv5yrz1dc80",
-                                                    "created": 1568001001826,
-                                                    "text": "png格式图片显示正常",
-                                                    "usecase": 2
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "bwv60l6ope80",
-                                                    "created": 1568001143779,
-                                                    "text": "尺寸大于800X800的图片",
-                                                    "usecase": 2
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "bwv60l6ope80",
-                                                    "created": 1568001143779,
-                                                    "text": "尺寸小于？？？的图片",
-                                                    "usecase": 2
-                                                },
-                                                "children": []
-                                            }
-                                        ]
+                                        "children": []
                                     },
                                     {
                                         "data": {
-                                            "id": "bxv0aiojpqo0",
-                                            "created": 1571641153751,
-                                            "text": "商品名称",
-                                            "expandState": "collapse"
+                                            "id": "bxvp327vzuw0",
+                                            "created": 1571711097114,
+                                            "text": "存在等待追评的订单时查看已完成分类",
+                                            "usecase": 2
                                         },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "bxv0cy9ufew0",
-                                                    "created": 1571641344419,
-                                                    "text": "商品名称长度为1个字符时查看商品名称",
-                                                    "usecase": 2
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "bxv0djiptm80",
-                                                    "created": 1571641390668,
-                                                    "text": "商品名称长度为20个字符时查看商品名称 ",
-                                                    "usecase": 2
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "bxv0dqy3ebc0",
-                                                    "created": 1571641406835,
-                                                    "text": "商品名称中包含表情时查看商品名称",
-                                                    "usecase": 2
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "bxv0e0t32m00",
-                                                    "created": 1571641428300,
-                                                    "text": "商品名称中包含特殊字符时查看商品名称",
-                                                    "usecase": 2
-                                                },
-                                                "children": []
-                                            }
-                                        ]
+                                        "children": []
                                     },
                                     {
                                         "data": {
-                                            "id": "bxv0aldw2800",
-                                            "created": 1571641159637,
-                                            "text": "商品价格",
-                                            "expandState": "collapse"
+                                            "id": "bxvp38bknhs0",
+                                            "created": 1571711110397,
+                                            "text": "存在已领奖待审核的订单时查看已完成分类",
+                                            "usecase": 2
                                         },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "bxlnv9n3jug0",
-                                                    "created": 1570692065681,
-                                                    "text": "查看商品价格",
-                                                    "usecase": 2
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "bwv8md95ngo0",
-                                                            "created": 1568008492746,
-                                                            "text": "显示商品实际价格，保留两位小数，示例：￥199.00",
-                                                            "usecase": 3
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            }
-                                        ]
+                                        "children": []
                                     },
                                     {
                                         "data": {
-                                            "id": "bxv0anmrqcg0",
-                                            "created": 1571641164528,
-                                            "text": "规格",
-                                            "expandState": "collapse"
+                                            "id": "bxvp4bbrp200",
+                                            "created": 1571711195304,
+                                            "text": "存在没有中奖的订单时查看已完成分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6j9hn200",
+                                            "created": 1571711369309,
+                                            "text": "存在商家审核通过待提交预试用报告的订单时查看已完成分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp6st95q80",
+                                            "created": 1571711390095,
+                                            "text": "存在已提交预试用报告待商家审核的订单时查看已完成分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp73ge7hs0",
+                                            "created": 1571711413262,
+                                            "text": "存在预试用报告已审核通过待提交评价截图的订单时查看已完成分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7lrt2b40",
+                                            "created": 1571711453134,
+                                            "text": "存在已提交评价截图待商家审核的订单时查看已完成分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvp7ta3dug0",
+                                            "created": 1571711469477,
+                                            "text": "存在已完成试用待返款的订单时查看已完成分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpamm3xeg0",
+                                            "created": 1571711690059,
+                                            "text": "存在已完成试用且已返款成功的订单时查看已完成分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvppb5vbc80",
+                                            "created": 1571712840595,
+                                            "text": "订单数量等于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpbaubtew0",
+                                            "created": 1571711742798,
+                                            "text": "存在预追评已审核通过等待提交追评截图的订单时查看已完成分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpblykmog0",
+                                            "created": 1571711767000,
+                                            "text": "存在已提交追评截图等待商家审核通过的订单时查看已完成分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpauiwlg80",
+                                            "created": 1571711707280,
+                                            "text": "存在等待预追评的订单时查看已完成分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpcw0aw340",
+                                            "created": 1571711867236,
+                                            "text": "存在超时未领奖的订单时查看已完成分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdlxwjjk0",
+                                            "created": 1571711923688,
+                                            "text": "存在放弃开奖的订单时查看已完成分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdrkxswg0",
+                                            "created": 1571711935964,
+                                            "text": "存在已删除的超时未领奖订单时查看已完成分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpdy2m05s0",
+                                            "created": 1571711950094,
+                                            "text": "存在已删除的放弃开奖的订单时查看已完成分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpi52d3600",
+                                            "created": 1571712278773,
+                                            "text": "查看订单排序方式",
+                                            "usecase": 2
                                         },
                                         "children": [
                                             {
                                                 "data": {
-                                                    "id": "bxlr71iy6q00",
-                                                    "created": 1570701451717,
-                                                    "text": "商品设置规格为随意拍时，查看规格",
-                                                    "usecase": 2
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "bxlr7cr2vsw0",
-                                                    "created": 1570701476152,
-                                                    "text": "商品设置规格为1个sku时，查看规格",
-                                                    "usecase": 2
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "bxlr8szwf9s0",
-                                                    "created": 1570701589878,
-                                                    "text": "商品设置规格大于1个sku时，查看规格",
-                                                    "usecase": 2
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "bxlr9igl9b40",
-                                                    "created": 1570701645307,
-                                                    "text": "商品设置规格为自定义时，查看规格",
-                                                    "usecase": 2
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "bxlr9igl9b40",
-                                                    "created": 1570701645307,
-                                                    "text": "商品设置规格为自定义，内容超长时查看规格",
-                                                    "usecase": 2
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
                                                 },
                                                 "children": []
                                             }
@@ -6508,100 +8689,60 @@
                                     },
                                     {
                                         "data": {
-                                            "id": "bxv0aq9umdc0",
-                                            "created": 1571641170277,
-                                            "text": "数量",
-                                            "expandState": "collapse"
+                                            "id": "bxvpgbbdf0g0",
+                                            "created": 1571712135650,
+                                            "text": "所有订单数量大于10条时查看已完成分类",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpghnbpog0",
+                                            "created": 1571712149433,
+                                            "text": "订单数量大于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpp5epbjs0",
+                                            "created": 1571712828068,
+                                            "text": "订单数量小于10时上滑查看第二页订单",
+                                            "usecase": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bxvpq9ni78o0",
+                                            "created": 1571712915672,
+                                            "text": "订单数量大于10时，查看前20条订单排序方式",
+                                            "usecase": 2
                                         },
                                         "children": [
                                             {
                                                 "data": {
-                                                    "id": "bxlnusmhl1c0",
-                                                    "created": 1570692028639,
-                                                    "text": "查看数量",
-                                                    "usecase": 2
+                                                    "id": "bxvpifnjpfs0",
+                                                    "created": 1571712301821,
+                                                    "text": "按订单最后更新时间倒序排列",
+                                                    "usecase": 3
                                                 },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "bxlnuws01s00",
-                                                            "created": 1570692037680,
-                                                            "text": "1件，每次只能申请1件",
-                                                            "usecase": 3
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
+                                                "children": []
                                             }
                                         ]
                                     },
                                     {
                                         "data": {
-                                            "id": "bxv31139gdk0",
-                                            "created": 1571648873511,
-                                            "text": "提示信息",
-                                            "expandState": "collapse"
+                                            "id": "bxvpb2aw1eo0",
+                                            "created": 1571711724209,
+                                            "text": "存在已提交预追评等待商家审核的订单时查看已完成分类",
+                                            "usecase": 2
                                         },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "bxv312a0psg0",
-                                                    "created": 1571648876097,
-                                                    "text": "查看提示信息",
-                                                    "usecase": 2
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "bxv315li6ps0",
-                                                            "created": 1571648883321,
-                                                            "text": "提示：每申请满5次当日就可提升10%的中奖率哦",
-                                                            "usecase": 3
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "bxv44d05mfk0",
-                                            "created": 1571651955647,
-                                            "text": "去申请按钮",
-                                            "expandState": "collapse"
-                                        },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "bxv44ehq64g0",
-                                                    "created": 1571651958886,
-                                                    "text": "点击去申请按钮",
-                                                    "usecase": 2
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "bxv44i977yo0",
-                                                            "created": 1571651967078,
-                                                            "text": "跳转到商品列表页面",
-                                                            "usecase": 3
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            }
-                                        ]
+                                        "children": []
                                     }
                                 ]
-                            },
-                            {
-                                "data": {
-                                    "id": "bxv3gkubb4w0",
-                                    "created": 1571650091968,
-                                    "text": "分页"
-                                },
-                                "children": []
                             }
                         ]
                     }
